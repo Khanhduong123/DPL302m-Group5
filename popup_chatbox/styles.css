@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.chat-container {
+    padding: 10px;
+}
+
+.chat-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat-messages {
+    height: 150px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat-input input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.chat-input button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: #45a049;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+#chatbox-toggle {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#chatbox-toggle:hover {
+    background-color: #45a049;
+}
+
+.message-bubble {
+    clear: both;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%; /* Limit the width of the bubble */
+}
+
+.sent {
+    float: right;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.received {
+    float: left;
+    background-color: #f1f1f1;
+}
+
+/* Style the message text inside the bubble */
+.message-text {
+    word-wrap: break-word;
+}
