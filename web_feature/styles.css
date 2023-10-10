@@ -225,7 +225,7 @@ p{
 }
 .title::after{
     content: '';
-    background: #75a9e9;
+    background: #FFA500;
     width: 120px;
     height: 5px;
     border-radius: 4px;
@@ -242,7 +242,7 @@ h4{
     font-size: 14px;
 }
 .rating .fa{
-    color: #3585bb
+    color: #FFA500
 }
 .col-4:hover{
     transform: translateY(-5px);
