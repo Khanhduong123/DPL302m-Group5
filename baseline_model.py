@@ -84,3 +84,6 @@ class Model:
 
     def initialize_input_encoder(self):
         
+class Plapla:
+    def __new__(cls) -> Self:
+        pass
