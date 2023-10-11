@@ -46,6 +46,8 @@ p{
     height: 450px; /* Set the desired height */
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: #fff; /* Set a background color to make the chatbox opaque */
+    z-index: 9999; /* Set a high z-index value */
 }
 
 .chat-container {
