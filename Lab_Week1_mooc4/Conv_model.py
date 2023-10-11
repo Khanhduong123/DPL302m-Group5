@@ -65,7 +65,6 @@ def happyModel():
             
             ## Dense layer with 1 unit for output & 'sigmoid' activation
             
-            # YOUR CODE STARTS HERE
             ## ZeroPadding2D with padding 3, input shape of 64 x 64 x 3
             tfl.ZeroPadding2D(padding=(3, 3),input_shape=(64,64,3)),
         
@@ -77,18 +76,15 @@ def happyModel():
             
             ## ReLU
             tfl.ReLU(max_value=None, negative_slope=0.0, threshold=0.0),
+
             ## Max Pooling 2D with default parameters
-        
             tfl.MaxPool2D(pool_size=(2, 2), strides=None, padding='valid', data_format=None),
-            
+
             ## Flatten layer
-        
             tfl.Flatten(),
         
             ## Dense layer with 1 unit for output & 'sigmoid' activation
             tfl.Dense(1,activation="sigmoid")
-            
-            # YOUR CODE ENDS HERE
         ])
     
     return model

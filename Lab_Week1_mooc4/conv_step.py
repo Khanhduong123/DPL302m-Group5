@@ -20,8 +20,6 @@ def zero_pad(X, pad):
     
     return X_pad
 
-
-
 def conv_single_step(a_slice_prev, W, b):
     """
     Apply one filter defined by parameters W on a single slice (a_slice_prev) of the output activation 
@@ -100,10 +98,7 @@ def conv_forward(A_prev, W, b, hparameters):
                     biases = b[:, :, :, c]
                     Z[i, h, w, c] = conv_single_step(a_slice_prev, weights, biases)
     cache = (A_prev, W, b, hparameters)
-    
     return Z, cache
-
-
 
 def pool_forward(A_prev, hparameters, mode = "max"):
     """
@@ -162,10 +157,6 @@ def pool_forward(A_prev, hparameters, mode = "max"):
     
     cache = (A_prev, hparameters)
     return A, cache
-
-
-
-
 
 def conv_backward(dZ, cache):
     """
@@ -232,13 +223,11 @@ def conv_backward(dZ, cache):
                     dW[:,:,:,c] += a_slice * dZ[i,h,w,c]
                     db[:,:,:,c] += dZ[i,h,w,c]
                     
-        # Set the ith training example's dA_prev to the unpadded da_prev_pad (Hint: use X[pad:-pad, pad:-pad, :])
+        #Set the ith training example's dA_prev to the unpadded da_prev_pad (Hint: use X[pad:-pad, pad:-pad, :])
         dA_prev[i, :, :, :] = da_prev_pad[pad:-pad, pad:-pad, :]
     assert(dA_prev.shape == (m, n_H_prev, n_W_prev, n_C_prev))
     
     return dA_prev, dW, db
-
-
 
 def create_mask_from_window(x):
     """
@@ -274,7 +263,6 @@ def distribute_value(dz, shape):
     # Create a matrix where every entry is the "average" value (≈1 line)
     a = (dz/average)*np.ones(shape)
     return a
-
 
 
 def pool_backward(dA, cache, mode = "max"):
