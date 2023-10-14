@@ -1,154 +1,154 @@
-laptop_names,laptop_ids,laptop_moneys,laptop_chips,laptop_memories,laptop_storages,laptop_video_cards
-"Laptop Asus Vivobook E1404FA-NK186W R5 7520U/16GB/512GB/14"" FHD/Win11",(No.00872250),13.490.000,AMD Ryzen 5 7520U,16  LPDDR5 5500 MHz,SSD 512,AMD Radeon Graphics
-"Laptop Lenovo IdeaPad 3 15ITL6 i5 1155G7/16GB/512GB/15.6""FHD/Win11",(No.00882555),13.490.000,Intel Core i5 1155G7,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-Laptop Acer Swift 3 SF314-43-R4X3 R5 5500U/16GB/512GB SSD/Win11,(No.00783546),18.990.000,AMD Ryzen 5 5500U,16  LPDDR4X 4266 MHz,SSD 512,AMD Radeon Graphics
-"Laptop Dell Inspiron 15 N3520 i5 1235U/8GB/256GB/15.6""FHD/Win 11/Office HS21",(No.00859702),15.490.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 2666 MHz,SSD 256,Intel Iris Xe Graphics
-"Laptop MSI Modern 14 C7M-221VN R7 7730U/8GB/512GB/14"" FHD IPS/Win 11",(No.00895154),13.790.000,AMD Ryzen 7 7730U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
-"Laptop Asus Vivobook Flip TN3402YA-LZ188W R5-7530U/16GB/512GB/14"" Touch/Win11",(No.00890480),17.090.000,AMD Ryzen 5 7530U,16,SSD 512,Intel UHD Graphics
-"Laptop MSI Gaming GF63 Thin 11SC-664VN i5 11400H/8GB/512GB/15.6""FHD/GeForce GTX 1650 4GB/Win 11",(No.00859658),15.490.000,Intel Core i5 11400H,8  DDR4 3200 MHz,SSD 512,NVIDIA GeForce GTX 1650 4GB
-"Laptop Lenovo IdeaPad 1 15AMN7 R5 7520U/8GB/512GB/15.6""FHD/Win 11",(No.00849513),12.990.000,AMD Ryzen 5 7520U,8  LPDDR5 5500 MHz,SSD 512,AMD Radeon Graphics
-Laptop HP 14s-em0086AU R5 7520U/16GB/512GB/14''FHD/AMD Radeon Graphics/Win11,(No.00874398),13.990.000,AMD Ryzen 5 7520U,16  LPDDR5 5500 MHz,SSD 512,AMD Radeon Graphics
-"Laptop MSI Gaming Thin GF63 12VE-454VN i5 12450H/16GB/512GB/15.6"" FHD/GeForce RTX4050_6GB/Win 11",(No.00878325),21.490.000,Intel Core i5 12450H,16  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel Iris Xe Graphics
-"Laptop Lenovo IdeaPad 3 14IAH8 i5 12450H/16GB/512GB/14""FHD/Win11",(No.00898312),15.290.000,Intel Core i5 12450H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,Intel UHD Graphics
-"Laptop Asus TUF Gaming FX506HC-HN144W i5 11400H/8GB/512GB/15.6""FHD/GeForce RTX 3050 4GB/Win 11",(No.00807493),21.490.000,Intel Core i5 11400H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
-"Laptop Acer Nitro 5 Gaming AN515-57-53F9 i5 11400H/8GB/512GB/15.6""FHD/RTX3050 4GB/Win11",(No.00888570),22.990.000,Intel Core i5 11400H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
-"Laptop Asus Vivobook X415EA-EK1387W i3 1115G4/8GB/256GB/14"" FHD/Win 11",(No.00802992),9.190.000,Intel Core i3 1115G4,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 256,Intel UHD Graphics
-"Laptop HP Pavilion 14-dv2075TU i5 1235U/8GB/512GB SSD/14""FHD/Win11",(No.00857690),19.190.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Acer Aspire 7 Gaming A715-76-57CY i5 12450H/8G/512G/15.6""FHD/Win11",(No.00881876),16.390.000,Intel Core i5 12450H,8  DDR4 3200 MHz,SSD 512,Intel UHD Graphics
-"Laptop Asus TUF Gaming FX507ZC4-HN095W i5 12500H/16GB/512GB/15.6""/Nvidia RTX 3050 4GB/Win1",(No.00883758),23.990.000,Intel Core i5 12500H,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics
-"Laptop Acer Aspire 7 Gaming A715-43G-R09Q R5 5625U/16GB/512GB/15.6""FHD/NVIDIA RTX3050/Win11",(No.00888283),18.990.000,AMD Ryzen 5 5625U,16  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
-"Laptop Asus TUF Gaming FX517ZC-HN077W i5 12450H/8GB/512GB/15.6""FHD/GeForce RTX 3050 4GB/Win 11",(No.00800822),22.490.000,Intel Core i5 12450H,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
-"Laptop MSI Gaming GF63 Thin 11UC-1228VN i7-11800H/8GB/512GB/15.6""FHD/GeForce RTX3050_4GB/Win11",(No.00859660),18.890.000,Intel Core i7 11800H,8  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
-"Laptop MSI Modern 15 B7M-099VN R5 7530U/8GB/512GB/15.6""FHD/Win 11",(No.00866561),11.390.000,AMD Ryzen 5 7530U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
-"Laptop MSI Modern 14 C7M-220VN R5 7530U/8GB/512GB/14""FHD/Win 11",(No.00895155),11.490.000,AMD Ryzen 5 7530U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
-Laptop Asus TUF Gaming FX506HE-HN377W i7 11800H/8GB/512GB/15.6”/Nvidia RTX 3050Ti 4GB/Win11,(No.00898376),19.990.000,Intel Core i7 11800H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 Ti 4 GB
-"Laptop HP 15s fq2711TU i3 1115G4/8GB/256GB/15.6""FHD/Win 11",(No.00851498),11.690.000,Intel Core i3 1115G4,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 256,Intel UHD Graphics
-"Laptop Lenovo Ideapad 3 15ITL6 i5 1155G7/8GB/256GB/15.6""FHD/Win 11",(No.00872340),13.190.000,Intel Core i5 1155G7,8  DDR4 3200 MHz,SSD 256,Intel Iris Xe Graphics
-"Laptop MSI Modern 15 B7M-098VN R7 7730U/8GB/512GB/15.6""FHD/Win 11",(No.00866562),14.590.000,AMD Ryzen 7 7730U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
-"Laptop Asus Vivobook X515EA-EJ322W i3 1115G4/8GB/512GB/15.6"" FHD/Win 11",(No.00861530),9.790.000,Intel Core i3 1115G4,8  (2 thanh 4 ) DDR4,SSD 512,Intel UHD Graphics
-"Laptop Lenovo Ideapad Gaming 3 15ARH7 R5 7535HS/8GB/512GB/15.6""FHD/Nvidia RTX 4050 6GB/Win11",(No.00892738),21.990.000,AMD Ryzen 5 7535HS,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6
-Laptop Acer Nitro 5 Tiger Gaming AN515-58-52SP i5 12500H/8GB/512GB SSD/GeForce RTX 3050 4GB/Win11,(No.00798025),26.490.000,Intel Core i5 12500H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics
-"Laptop Huawei MateBook D15 R7 5700U/8GB/512GB/15.6""FHD/Win11",(No.00888035),12.790.000,AMD Ryzen 7 5700U,8  (1 thanh 8 ) DDR4,SSD 512,AMD Radeon Graphics
-Laptop Acer Nitro Gaming AN515-57-5669 i5 11400H/8GB/512GB SSD/GeForce GTX 1650 4GB/Win11,(No.00789041),21.490.000,Intel Core i5 11400H,8  DDR4 3200 MHz,SSD 512,NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics
-Laptop Asus Vivobook M3504YA-L1268W R5 7530U/16GB/512GB/15.6''OLED/Win11,(No.00895027),18.490.000,AMD Ryzen 5 7530U,16  (2 thanh 8 ),SSD 512,Intel Iris Xe Graphics
-"Laptop Asus Vivobook  A1503ZA-L1139W i5 12500H/8GB/512GB/15.6""FHD/Win 11",(No.00825034),20.490.000,Intel Core i5 12500H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
-Laptop CHUWI GemiBook Celeron J4125/8GB/256GB/13''IPS/Win 10,(No.00884712),4.690.000,Intel Celeron J4125,8,SSD 256,Intel HD Graphics
-"Laptop Asus Vivobook X1502ZA-BQ126W i5 1240P/8GB/512GB/15.6""FHD/Iris Xe Graphics/Win 11",(No.00813509),17.490.000,Intel Core i5 1240P,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-Laptop Acer Aspire 3 A315-57G-573F i5 1035G1/8GB/512GB SSD/GeForce MX330 2GB/Win11,(No.00793778),12.990.000,Intel Core i5 1035G1,8  (2 thanh 4 ) DDR4 2400 MHz,SSD 512,NVIDIA GeForce MX330 2GB; Intel UHD Graphics
-Laptop Asus Vivobook X515EA-EJ4111W i5 1135G7/16GB/512GB/15.6”FHD/Win11,(No.00892869),13.990.000,Intel Core i5 1135G7,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
-"Laptop Lenovo Ideapad 3 15IAU7 i7 1255U/16GB/512GB/15.6""FHD/Win 11",(No.00899872),16.290.000,Intel Core i7 1255U,16  DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-Laptop Asus Vivobook 15 OLED A1505VA-L1113W i5 13500H/16GB/512GB/15.6''FHD/Win11,(No.00870695),20.490.000,Intel Core i5 13500H,16  DDR4 3200 MHz,SSD 512,Intel UHD Graphics
-"Laptop Lenovo Ideapad Slim 5 Light 14ABR8 R7 7730U/16GB/512GB/14.0""FHD/Win11",(No.00881885),19.490.000,AMD Ryzen 7 7730U,16  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
-"Laptop Asus Vivobook A1405VA-KM059W i5 13500H/8GB/512GB/14"" OLED WQXGA+/Win11",(No.00866320),19.990.000,Intel Core i5 13500H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
-Laptop HP Gaming Victus 16-e1104AX R7 6800H/8GB/512GB/16.1''FHD/Nvidia RTX 3050 4GB/Win11,(No.00888669),26.290.000,AMD Ryzen 7 6800H,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
-Laptop Asus TUF Gaming FA507NV-LP046W R7 7735HS/8GB/512GB/GeForce RTX 4060 8GB/Win11,(No.00879626),33.490.000,AMD Ryzen 7 7735HS,8  DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4060 8GB; AMD Radeon Graphics
-"Laptop HP 245 G10 R5 7520U/8GB/256GB/14""FHD/Win11",(No.00900029),10.990.000,AMD Ryzen 5 7520U,8,SSD 256,AMD Radeon Graphics
-"Laptop Acer Aspire 3 A315-59-31BT i3 1215U/8GB/256GB/15.6""FHD/Win11",(No.00888223),8.690.000,Intel Core i3 1215U,8  DDR4 3200 MHz,SSD 256,Intel UHD Graphics
-"Laptop Lenovo Ideapad 3 15IAU7 i5 1235U/8GB/512GB/15.6""FHD/Win 11",(No.00858329),16.990.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-Laptop Acer Swift 3 SF314-511-55QE i5 1135G7/16GB/512GB SSD/Win11,(No.00793771),20.990.000,Intel Core i5 1135G7,16  LPDDR4X 4266 MHz,SSD 512,Intel Iris Xe Graphics
-Laptop HP 14s-dq2644TU i3 1115G4/8GB/256GB/14''FHD/Win11,(No.00883757),11.890.000,Intel Core i3 1115G4,8  (1 thanh 8 ),SSD 256,Intel UHD Graphics
-"Laptop HP 15s fq5160TU i5 1235U/16GB/512GB/15.6""FHD/Win 11",(No.00851505),19.490.000,Intel Core i5 1235U,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Asus Vivobook E1504FA-NJ426W R3 7320U/8GB/256GB/15.6"" FHD/Win11",(No.00881861),8.990.000,AMD Ryzen 3 7320U,8  LPDDR5 5500 MHz,SSD 256,Intel UHD Graphics
-"Laptop Asus Zenbook UX3402ZA-KM218W i5 1240P/8GB/512GB/14.0""OLED WQXGA/Win 11",(No.00820196),24.990.000,Intel Core i5 1240P,8  DDR5 4800 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Acer Nitro Gaming AN515-58-769J i7 12700H/8GB/512GB/15.6""FHD/GeForce RTX 3050 4GB/Win11",(No.00834736),29.490.000,Intel Core i7 12700H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
-"Laptop HP 15s fq2712TU i3 1115G4/8GB/256GB/15.6""FHD/Win 11",(No.00851499),11.690.000,Intel Core i3 1115G4,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 256,Intel UHD Graphics
-"Laptop Lenovo IdeaPad Slim 5 16IAH8 i5 12450H/16GB/512GB/16""WUXGA/Win11",(No.00884149),16.990.000,Intel Core i5 12450H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,Intel UHD Graphics
-"Laptop MSI Gaming Alpha 15 B5EEK-203VN R5 5600H/8GB/512GB/15.6""FHD/RX6600M 8GB/Win 11_Balo",(No.00879611),17.990.000,AMD Ryzen 5 5600H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,AMD Radeon RX 6600M 8GB; AMD Radeon Graphics Vega 6
-"Laptop Gigabyte Gaming A5 K1-AVN1030SB R5 5600H/8GB/512GB/15.6""FHD/Nvidia RTX 3060 6GB/Win11",(No.00882605),19.290.000,AMD Ryzen 5 5600H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3060 6GB; AMD Radeon RX Graphics Vega 7
-"Laptop Acer Aspire 3 A315-58-54M5 i5 1135G7/8GB/512GB/15.6""FHD/Win 11",(No.00819389),13.990.000,Intel Core i5 1135G7,8  (2 thanh 4 ) DDR4 2400 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Huawei MateBook D14 BE i3 1215U/8GB/256GB/14""FHD+/Win11",(No.00888042),10.790.000,Intel Core i3 1215U,8  DDR4,SSD 256,Intel UHD Graphics
-"Laptop Lenovo Gaming Legion 5 15ARH7H R5 6600H/16GB/512GB/15.6""WQHD/NVIDIA RTX 3060 6GB/Win11",(No.00882557),40.490.000,AMD Ryzen 5 6600H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3060 6GB
-"Laptop Acer Aspire 3 A314-23M-R4TX R5 7520U/8GB/512GB/14""FHD/Win11",(No.00888224),11.990.000,AMD Ryzen 5 7520U,8,SSD 512,AMD Radeon Graphics
-"Laptop Dell Inspiron 16 N5620 i5 1240P/16GB/512GB/16.0""FHD/GeForce MX570 2GB/Win 11/Office HS21",(No.00824411),22.290.000,Intel Core i5 1240P,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Acer Nitro Gaming AN515-57-54MV i5 11400H/8GB/512GB/15.6""FHD/NVIDIA GeForce RTX 3050 4GB/Win11",(No.00775122),23.490.000,Intel Core i5 11400H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
-"Laptop Lenovo Gaming Legion 5 15IAH7 i5 12500H/16GB/512GB/15.6""FHD/Nvidia RTX 3050 4GB/Win 11",(No.00895159),31.590.000,Intel Core i5 12500H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics
-Laptop Acer Aspire 5 A514-54-5127 i5 1135G7/8GB/512GB SSD/14.0''FHD/Win11,(No.00797334),13.090.000,Intel Core i5 1135G7,8  DDR4 2666 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Asus TUF Gaming FX706HC-HX579W i5 11400H/8GB/512GB/GeForce RTX 3050 4GB/17.3""FHD/Win 11",(No.00832136),24.490.000,Intel Core i5 11400H,8  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
-"Laptop Lenovo ThinkBook 14 G4 IAP i5 1235U/8GB/512GB/14.0""FHD/Win11",(No.00887601),16.990.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-Laptop Asus TUF Gaming FX507ZV4-LP041W i7 12700H/8GB/512GB/15.6''/Nvidia RTX 4060 8GB/Win11,(No.00888800),33.990.000,Intel Core i7 12700H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 4060 8GB; Intel Iris Xe Graphics
-"Laptop Asus Vivobook Pro K3405VC-KM070W i9 13900H/16GB/512GB/14"" OLED 2.8K/GeForce RTX3050 4GB/Win11",(No.00879631),32.990.000,Intel Core i9 13900H,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
-"Laptop MSI Modern 14 C12MO-660VN i5 1235U/16GB/512GB/14""FHD/Win11",(No.00884855),13.590.000,Intel Core i5 1235U,16  DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-Laptop HP Pavilion 15-eg2063TX i5 1235U/8GB/512GB/15.6''FHD/NVIDIA MX550 2GB/Win11,(No.00884158),17.990.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce MX550 2GB; Intel Iris Xe Graphics
-"Laptop MSI Modern 14 C11M-011VN i3 1115G4/8GB/512GB/14"" FHD/Win11",(No.00860753),10.690.000,Intel Core i3 1115G4,8  DDR4 3200 MHz,SSD 512,Intel UHD Graphics
-"Laptop HP ProBook 440 G10 i7 1360P/16GB/512GB/14""FHD Touch/Win11",(No.00888666),24.990.000,Intel Core i7 1360P,16,SSD 512,Intel UHD Graphics
-"Laptop MSI Gaming Katana 15 B13VFK-676VN i7 13620H/16GB/1TB/Geforce RTX 4060 8GB/15.6""FHD/Win11 - Balo",(No.00863509),32.390.000,Intel Core i7 13620H,16  (2 thanh 8 ) DDR5 5200 MHz,SSD 1 TB,NVIDIA GeForce RTX 4060 8GB; Intel UHD Graphics
-Laptop HP 240 G9 i5 1235U/8GB/512GB/14.0''FHD/Win11,(No.00862173),17.790.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Lenovo ThinkPad E16 Gen 1 i5 1340P/16GB/512GB/16""WUXGA/Win 11",(No.00887569),21.990.000,Intel Core i5 1340P,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-Laptop Lenovo ThinkPad E14 Gen 4 i7-1255U/8GB/512GB/14.0FHD/Win11,(No.00890156),22.990.000,Intel Core i7 1255U,8  DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-Laptop Lenovo ThinkPad E16 Gen 1 i7 1355U/16GB/512GB/16.0 WUXGA/Win11,(No.00895012),25.390.000,Intel Core i7 1355U,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop MSI Modern 14 C5M-030VN R5 5625U/8GB/512GB/14"" FHD/Win 11",(No.00858681),11.790.000,AMD Ryzen 5 5625U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
-"Laptop Asus Zenbook UX3402VA-KM203W i5 1340P/16GB/512GB/14"" WQXGA+/Win11",(No.00867032),24.590.000,Intel Core i5 1340P,16  DDR5 4800 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Lenovo IdeaPad 5 15ABA7 R5 5625U/8GB/512GB/15.6"" FHD/Win 11",(No.00836268),13.490.000,AMD Ryzen 5 5625U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
-"Laptop Acer Nitro Gaming AN515-45-R86D R7 5800H/8GB/512GB/15.6""FHD/GeForce RTX 3060 6GB/Win 11",(No.00826505),26.490.000,AMD Ryzen 7 5800H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3060 6GB; AMD Radeon Graphics
-"Laptop Acer Nitro 5 Gaming AN515-58-5935 i5 2450H/8GB/512GB/15.6""FHD/RTX4050 6GB/Win11",(No.00888749),25.990.000,Intel Core i5 12450H,8  DDR5,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6
-"Microsoft Surface Laptop Go i5 1035G1/8GB/128GB/12.4"" Touch/Win10",(No.00775354),14.890.000,Intel Core i5 1035G1,8  LPDDR4X 3733 MHz,SSD 128,Intel UHD Graphics
-"Laptop MSI Gaming Cyborg 15 A12VE-240VN i7 12650H/8GB/512GB/15.6""FHD/GeForce RTX 4050 6GB/Win 11 + Balo",(No.00863701),24.690.000,Intel Core i7 12650H,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel UHD Graphics
-"Laptop Asus Zenbook Flip UP3404VA-KN038W i5 1340P/16GB/512GB/14"" OLED Touch/Win11",(No.00866538),29.490.000,Intel Core i5 1340P,16  LPDDR5 5500 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop MSI Gaming Katana GF66 12UCK-815VN i5 12450H/8GB/512GB/15.6""/GeForce RTX 3050 4GB/Win11_Balo",(No.00842517),17.990.000,Intel Core i5 12450H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
-"Laptop Acer Aspire 3 A315-58-53S6 i5 1135G7/8GB/256GB/15.6""FHD/Win 11",(No.00816129),11.490.000,Intel Core i5 1135G7,8  (2 thanh 4 ) DDR4 2400 MHz,SSD 256,Intel Iris Xe Graphics
-"Laptop Lenovo IdeaPad 3 14IAU7 i3 1215U/8GB/512GB/14""FHD/Win 11",(No.00836270),14.290.000,Intel Core i3 1215U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
-"Laptop Lenovo IdeaPad 3 14IAU7 i3 1215U/8GB/512GB/14.0""FHD/Win 11",(No.00858326),14.190.000,Intel Core i3 1215U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
-"Laptop Acer Swift Edge SFA16-41-R3L6 R7 6800U/16GB/1TB/16"" WQUXGA/Win11",(No.00884868),36.990.000,AMD Ryzen 7 6800H,16  (1 thanh 16 ) LPDDR5 6400 MHz,SSD 1 TB,AMD Radeon Graphics
-"Laptop MSI Creator M16 B13VE-830VN i7 13700H/16GB/512GB SSD/16""FHD/RTX4050 8GB/Win 11",(No.00881433),37.290.000,Intel Core i7 13700H,16  DDR5 5200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6
-"Laptop MSI Summit E14 Evo A12M-211VN i7 1280P/16GB/512GB/14""FHD/Win11/Túi/Chuột",(No.00881875),23.290.000,Intel Core i7 1280P,16  LPDDR5 4800 MHz,SSD 512,Intel Iris Xe Graphics
-MacBook Pro 16 inch M2 Max 2023 12CPU 38GPU 32GB/1TB,(No.00856989),85.690.000,Apple M2 Max 12-Core,32  Hãng không công bố Hãng không công bố,SSD 1 TB,Apple M2 Max 38-core GPU
-MacBook Pro 16 inch M2 Pro 2023 12CPU 19GPU 32GB/512GB,(No.00857495),76.990.000,Apple M2 Pro 12-Core,32  (1 thanh 16 ) Hãng không công bố Hãng không công bố,SSD 512,Apple M2 Pro 16-core GPU
-"Laptop MSI Gaming Raider GE68HX 13VG-048VN i7 13700HX/32GB/2TB/16""QHD/RTX4070 8GB/Win11/Balo",(No.00888282),60.990.000,Intel Core i7 13700HX,32  (2 thanh 16 ) DDR5 5600 MHz,SSD 2 TB,NVIDIA Geforce RTX 4070 8GB GDDR6; Intel UHD Graphics
-MacBook Pro 16 inch M2 Pro 2023 12CPU 19GPU 16GB/512GB,(No.00856985),58.990.000,Apple M2 Pro 12-Core,16  (1 thanh 16 ) Hãng không công bố Hãng không công bố,SSD 512,Apple M2 Pro 16-core GPU
-MacBook Pro 14 inch M2 Pro 2023 10CPU 16GPU 32GB/512GB,(No.00857496),58.490.000,Apple M2 Pro 10-Core,32  Hãng không công bố Hãng không công bố,SSD 512,Apple M2 Pro 16-core GPU
-MacBook Pro 14 inch M1 Pro 2021 10CPU 16GPU 16GB/1TB,(No.00777788),49.990.000,Apple M1 Pro,16,SSD 1 TB,Apple M1
-Laptop Asus Gaming ROG Strix G533ZS-LN036W i9 12900H/32GB/2TB/15.6''WQHD/NVIDIA RTX3080 8GB/Win11,(No.00892850),49.990.000,Intel Core i9 12900H,32  (2 thanh 16 ) DDR5 4800 MHz,SSD 2 TB,NVIDIA GeForce RTX 3080 8GB
-Laptop Asus Zenbook Pro UX6404VV-P4069W i9 13900H/32GB/1TB/14.5” 2.8K/Nvidia RTX 4060 8GB/Win11,(No.00883763),49.490.000,Intel Core i9 13900H,32  (2 thanh 16 ) DDR5 4800 MHz,SSD 1 TB,NVIDIA GeForce RTX 4060 8GB; Intel UHD Graphics
-"Laptop Microsoft Surface Pro 9 i7 1255U/16GB/256GB/13"" Touchscreen/Win11",(No.00881869),43.990.000,Intel Core i7 1255U,16  (1 thanh 16 ) DDR5 4800 MHz,SSD 256,Intel Iris Xe Graphics
-Laptop Asus Gaming ROG Zephyrus GU603VU-N3898W i7 13620H/16G/512GB/16''/Nvidia RTX 4050 6GB/Win11,(No.00881890),39.990.000,Intel Core i7 13620H,16  (1 thanh 16 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel Iris Xe Graphics
-"Laptop Acer Predator Helios Neo Gaming PHN16-71-7460 i7 13700HX/8GB/512GB/16""WQXGA/RTX4050/Win11",(No.00881834),38.990.000,Intel Core i7 13700HX,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6
-MacBook Air 15 M2 2023 8CPU 10GPU/8GB/512GB/Sạc 70W,(No.00894744),37.890.000,Apple M2 8 - Core,8  Hãng không công bố Hãng không công bố MHz,SSD 512,Apple M2 GPU 10 nhân
-Laptop Asus Gaming ROG Strix G513RW-HQ152W R9-6900HX/16GB/1TB/Nvidia RTX 3070Ti 8GB/Win11,(No.00883760),36.990.000,AMD Ryzen 9 6900HX,16  (1 thanh 16 ) DDR5 4800 MHz,SSD 1 TB,NVIDIA GeForce RTX 3070 Ti 8GB
-MacBook Air 15 inch M2 2023 8CPU 10GPU 16GB/256GB,(No.00882189),36.490.000,Apple M2 8 - Core,16  Hãng không công bố Hãng không công bố,SSD 256,Apple M2 GPU 10 nhân
-MacBook Pro 13 inch M2 2022 8CPU 10GPU 16GB/256GB,(No.00819893),35.490.000,Apple M2 8 - Core,16  LPDDR4 3200 MHz,SSD 256,Apple M2 GPU 10 nhân
-"Laptop LG Gram 14Z90R-G.AH75A5 i7 1360P/16G/512G/14""WUXGA/Win11",(No.00883090),35.000.000,Intel Core i7 1360P,16,SSD 512,Intel Iris Xe Graphics
-"Laptop Lenovo Gaming Legion 5 Pro 16ARH7H R7 6800H/16GB/512GB/16""/Nvidia RTX 3060 6GB/Win 11",(No.00900730),44.490.000,AMD Ryzen 7 6800H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3060 6GB; AMD Radeon Graphics
-MacBook Air 13 inch M2 2022 8CPU 8GPU 16GB/256GB,(No.00824329),31.690.000,Apple M2 8 - Core,16  LPDDR4 3200 MHz,SSD 256,Apple M2 GPU 8 nhân
-MacBook Air 15 inch M2 2023 8CPU 10GPU 8GB/256GB,(No.00881927),31.490.000,Apple M2 8 - Core,8  Hãng không công bố Hãng không công bố,SSD 256,Apple M2 GPU 10 nhân
-"Laptop Asus Zenbook Flip UP3404VA-KN039W i7 1360P/16GB/512GB/14"" OLED Touch/Win11",(No.00890477),30.490.000,Intel Core i7 1360P,16  DDR5 LPDDR5 4800 MHz,SSD 512,Intel UHD Graphics 605
-MacBook Pro 13 inch M2 2022 8CPU 10GPU 8GB/256GB,(No.00818154),29.890.000,Apple M2 8 - Core,8  LPDDR4 3200 MHz,SSD 256,Apple M2 GPU 10 nhân
-"Laptop Gigabyte Gaming Aorus 15 9MF-E2VN583SH i5 12500H/8GB/512GB/15.6""FHD/Nvidia RTX 4050 6GB/Win11",(No.00882675),28.990.000,Intel Core i5 12500H,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel Iris Xe Graphics
-Laptop Asus TUF Gaming FX507ZU4-LP520W i7 12700H/8GB/512GB/15.6'' FHD/NVIDIA RTX 4050 6GB/Win11,(No.00892943),27.990.000,Intel Core i7 12700H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel UHD Graphics
-MacBook Air 13 inch M1 2020 8CPU 7GPU 16GB/256GB,(No.00731890),27.990.000,Apple M1,16  LPDDR4,SSD 256,Apple M1 GPU 7 nhân
-"Laptop MSI Gaming Cyborg 15 A12VF-267VN i7 12650H/8GB/512GB/15.6""FHD/GeForce RTX 4060 8GB/Win11/Balo",(No.00873150),27.190.000,Intel Core i7 12650H,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4060 8GB; Intel HD Graphics
-MacBook Air 13 inch M2 2022 8CPU 8GPU 8GB/256GB,(No.00818144),26.990.000,Apple M2 8 - Core,8  LPDDR4 3200 MHz,SSD 256,Apple M2 GPU 8 nhân
-"Laptop Acer Swift 3 SF314-512-741L i7 1260P/16GB/1T/14"" QHD/Win11",(No.00884870),29.990.000,Intel Core i7 1260P,16  (1 thanh 16 ) LPDDR4,SSD 1 TB,Intel Iris Xe Graphics
-"Laptop LG Gram 14Z90R-G.AH53A5 i5 1340P/16GB/256GB/14""WUXGA/Win11",(No.00892851),25.990.000,Intel Core i5 1340P,16,SSD 256,Intel Iris Xe Graphics
-"Laptop Asus Vivobook Flip TP3402VA-LZ118W i9 13900H/16GB/512GB/14""Touch/Win11",(No.00904510),23.990.000,Intel Core i9 13900H,16  (2 thanh 8 ) DDR4 5500 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Dell Inspiron 14 2in1 T7430 i5 1335U/8GB/512GB/14.0""FHD/ Win11/Office HS21/Bút",(No.00904119),23.490.000,Intel Core i5 1335U,8  (1 thanh 8 ) LPDDR5 4800 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop HP Pavilion 14-dv2071TU i7 1255U/16GB/512GB/14""FHD/Win11",(No.00884156),24.690.000,Intel Core i7 1255U,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Acer Aspire 7 Gaming A715-76G-5806 i5 12450H/16GB/512GB/15.6""FHD/GeForce RTX3050/Win11",(No.00902037),19.990.000,Intel Core i5 12450H,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
-"Laptop Dell Inspiron 15 N3520 i7 1255U/8GB/512GB/15.6""FHD/Win11/Office HS21",(No.00888332),19.690.000,Intel Core i7 1255U,8,SSD 512,Intel Iris Xe Graphics
-MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB,(No.00725095),19.190.000,Apple M1,8  LPDDR4,SSD 256,Apple M1 GPU 7 nhân
-"Laptop Lenovo ThinkPad E14 Gen 3 R7 5700U/8GB/512GB/14.0""FHD/Win 10",(No.00799912),18.990.000,AMD Ryzen 7 5700U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
-"Laptop MSI Gaming GF63 Thin 12UC-1006VN i5 12450H/16GB/512GB/15.6""FHD/Nvidia RTX 3050 4GB/Win11",(No.00904737),18.890.000,Intel Core i5 12450H,16  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
-Laptop VAIO FE14 i5 1235U/8GB/512GB/14'' FHD/Intel UHD/Win11/VWNC51427-BK,(No.00884028),16.990.000,Intel Core i5 1235U,8  (2 thanh 4 ) LPDDR4 4266 MHz,SSD 512,Intel UHD Graphics
-"Laptop Lenovo Yoga 7 14ACN6 R7 5800U/8GB/512GB/14.0""FHD/Win 10",(No.00780897),16.990.000,AMD Ryzen 7 5800U,8  LPDDR4X 4266 MHz,SSD 512,AMD Radeon Graphics
-"Laptop MSI Modern 15 B13M-438VN i5 1335U/8GB/512GB/15.6""FHD/Win11",(No.00866553),18.090.000,Intel Core i5 1335U,8  DDR4 3200 MHz,SSD 512,Intel UHD Graphics
-"Laptop MSI Gaming GF63 12UCX-841VN i5 12450H/8GB/512GB/15.6"" FHD/RTX2050_4GB/Win11",(No.00902058),16.490.000,Intel Core i5 12450H,8  DDR4,SSD 512,NVIDIA Geforce RTX 2050 4GB
-"Laptop MSI Modern 15 B7M-238VN R7 7730U/16GB/512GB/15.6""FHD/Win 11",(No.00878151),15.490.000,AMD Ryzen 7 7730U,16  (1 thanh 16 ) DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
-"Laptop HP Pavilion 15 eg2037TX i5 1235U/8GB/256GB/15.6""FHD/GeForce MX550 2GB/Win 11",(No.00825043),14.990.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 256,NVIDIA GeForce MX550 2GB; Intel Iris Xe Graphics
-"Laptop HP 15s fq5161TU i5 1235U/8GB/512GB/15.6""FHD/Win 11",(No.00851503),14.690.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop HP Pavilion 15 eg2058TU i5 1240P/8GB/256GB/15.6""FHD/Win 11",(No.00825038),14.490.000,Intel Core i5 1240P,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 256,Intel Iris Xe Graphics
-"Laptop MSI Modern 15 B12MO-628VN i5 1235U/16GB/512GB/15.6""FHD/Win11",(No.00904860),13.990.000,Intel Core i5 1235U,16  DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop HP Pavilion 14 dv2035TU i5 1235U/8GB/256GB/14""FHD/Win 11",(No.00825047),13.990.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 256,Intel Iris Xe Graphics
-"Laptop HP Pavilion 14 dv2036TU i5 1235U/8GB/256GB/14""FHD/Win 11",(No.00820893),13.990.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 256,Intel Iris Xe Graphics
-"Laptop HP 15s-fq5081TU i5-1235U/8GB/256GB/15.6""HD/Win 11",(No.00820895),15.890.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 256,Intel Iris Xe Graphics
-"Laptop Lenovo V14 G3 IAP i5-1235U/8GB/512GB/14.0""FHD/Win 11",(No.00901909),11.490.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
-"Laptop Lenovo IdeaPad 1 15ALC7 R5 5500U/16GB/512GB/15.6"" FHD/Win11",(No.00901952),11.290.000,AMD Ryzen 5 5500U,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,AMD Radeon 610 2GB; AMD Radeon Graphics
-"Laptop Asus Vivobook A515EA-BQ3013W/i3-1115G4/8GB/256GB/15.6""FHD/Win 11",(No.00803001),10.490.000,Intel Core i3 1115G4,8  DDR4 3200 MHz,SSD 256,Intel UHD Graphics
-"Laptop MSI Gaming Creator Z16 HX Studio B13VFTO-063VN i7 13700HX/32GB/2TB/16""FHD/RTX4060 8GB/Win11",(No.00888838),63.990.000,Intel Core i7 13700HX,32  (2 thanh 16 ) DDR5 5600 MHz,SSD 2 TB,NVIDIA GeForce RTX 4060 8GB
-Laptop Asus Zenbook Pro Duo UX8402VU-P1028W i9 13900H/32GB/1TB/14.5”/Nvidia RTX 4050 6GB/Win11,(No.00883762),62.990.000,Intel Core i9 13900H,32  LPDDR5 4800 MHz,SSD 1 TB,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel Iris Xe Graphics
-Laptop Asus Gaming ROG Strix G614JI-N4084W i7 13650HX/16GB/1TB/16.0”/Nvidia RTX 4070 8GB/Win11,(No.00883764),54.490.000,Intel Core i7 13650HX,16  (1 thanh 16 ) DDR5 4800 MHz,SSD 1 TB,NVIDIA Geforce RTX 4070 8GB GDDR6; Intel UHD Graphics
-"Laptop MSI Gaming Creator Z16 A12UET-025VN i7 12700H/16GB/1TB/16""QHD+/Nvidia RTX 3060 6GB/Win 11/Túi",(No.00882686),47.590.000,Intel Core i7 12700H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 1 TB,NVIDIA GeForce RTX 3060 6GB; Intel Iris Xe Graphics
-"Laptop Lenovo Gaming Legion Slim 5 16IRH8 i7 13700H/16G/512G/16""WQXGA/RTX4060_8GB/Win11",(No.00883990),42.990.000,Intel Core i7 13700H,16  (2 thanh 8 ) DDR5 5200 MHz,SSD 512,NVIDIA GeForce RTX 4060 8GB
-"Laptop Lenovo Gaming LOQ 15IRH8 i5-13420H/8GB/512GB/15.6""FHD/RTX4050 6GB/Win11",(No.00886493),29.990.000,Intel Core i5 13400,8  (1 thanh 8 ) DDR5 5200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6
-"Laptop Lenovo ThinkBook 14p G3 ARH R5-6600H/16GB/512GB/14.0""2.2K/Win 11",(No.00850262),26.890.000,AMD Ryzen 5 6600H,16  DDR5 6400 MHz,SSD 512,AMD Radeon Graphics
-"Laptop Gigabyte Gaming G5 MF-F2VN333SH i5 12450H/8GB/512GB/15.6"" FHD/RTX4050_6GB/Win11",(No.00904604),21.990.000,Intel Core i5 12450H,8  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel Iris Xe Graphics
-"Laptop Asus Vivobook A515EA-L12033W i5 1135G7/8GB/512GB/15.6""FHD/Win 11",(No.00809819),19.990.000,Intel Core i5 1135G7,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
-"Laptop Lenovo Ideapad Gaming 3 15ARH7 R5 6600H/16GB/512GB/15.6""FHD/Nvidia RTX 3050 4GB/Win11",(No.00898315),18.990.000,AMD Ryzen 5 6600H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; AMD Radeon Graphics
+laptop_names,laptop_moneys,laptop_chips,laptop_memories,laptop_storages,laptop_video_cards
+Laptop Asus Vivobook E1404FA-NK186W,13.490.000,AMD Ryzen 5 7520U,16  LPDDR5 5500 MHz,SSD 512,AMD Radeon Graphics
+Laptop Lenovo IdeaPad 3,13.490.000,Intel Core i5 1155G7,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Acer Swift 3,18.990.000,AMD Ryzen 5 5500U,16  LPDDR4X 4266 MHz,SSD 512,AMD Radeon Graphics
+Laptop Dell Inspiron 15,15.490.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 2666 MHz,SSD 256,Intel Iris Xe Graphics
+Laptop MSI Modern 14,13.790.000,AMD Ryzen 7 7730U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
+Laptop Asus Vivobook Flip,17.090.000,AMD Ryzen 5 7530U,16,SSD 512,Intel UHD Graphics
+Laptop MSI Gaming GF63,15.490.000,Intel Core i5 11400H,8  DDR4 3200 MHz,SSD 512,NVIDIA GeForce GTX 1650 4GB
+Laptop Lenovo IdeaPad 1,12.990.000,AMD Ryzen 5 7520U,8  LPDDR5 5500 MHz,SSD 512,AMD Radeon Graphics
+Laptop HP 14s-em0086AU R5,13.990.000,AMD Ryzen 5 7520U,16  LPDDR5 5500 MHz,SSD 512,AMD Radeon Graphics
+Laptop MSI Gaming Thin,21.490.000,Intel Core i5 12450H,16  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel Iris Xe Graphics
+Laptop Lenovo IdeaPad 3,15.290.000,Intel Core i5 12450H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,Intel UHD Graphics
+Laptop Asus TUF Gaming,21.490.000,Intel Core i5 11400H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
+Laptop Acer Nitro 5,22.990.000,Intel Core i5 11400H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
+Laptop Asus Vivobook X415EA-EK1387W,9.190.000,Intel Core i3 1115G4,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 256,Intel UHD Graphics
+Laptop HP Pavilion 14-dv2075TU,19.190.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Acer Aspire 7,16.390.000,Intel Core i5 12450H,8  DDR4 3200 MHz,SSD 512,Intel UHD Graphics
+Laptop Asus TUF Gaming,23.990.000,Intel Core i5 12500H,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics
+Laptop Acer Aspire 7,18.990.000,AMD Ryzen 5 5625U,16  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
+Laptop Asus TUF Gaming,22.490.000,Intel Core i5 12450H,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
+Laptop MSI Gaming GF63,18.890.000,Intel Core i7 11800H,8  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
+Laptop MSI Modern 15,11.390.000,AMD Ryzen 5 7530U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
+Laptop MSI Modern 14,11.490.000,AMD Ryzen 5 7530U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
+Laptop Asus TUF Gaming,19.990.000,Intel Core i7 11800H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 Ti 4 GB
+Laptop HP 15s fq2711TU,11.690.000,Intel Core i3 1115G4,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 256,Intel UHD Graphics
+Laptop Lenovo Ideapad 3,13.190.000,Intel Core i5 1155G7,8  DDR4 3200 MHz,SSD 256,Intel Iris Xe Graphics
+Laptop MSI Modern 15,14.590.000,AMD Ryzen 7 7730U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
+Laptop Asus Vivobook X515EA-EJ322W,9.790.000,Intel Core i3 1115G4,8  (2 thanh 4 ) DDR4,SSD 512,Intel UHD Graphics
+Laptop Lenovo Ideapad Gaming,21.990.000,AMD Ryzen 5 7535HS,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6
+Laptop Acer Nitro 5,26.490.000,Intel Core i5 12500H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics
+Laptop Huawei MateBook D15,12.790.000,AMD Ryzen 7 5700U,8  (1 thanh 8 ) DDR4,SSD 512,AMD Radeon Graphics
+Laptop Acer Nitro Gaming,21.490.000,Intel Core i5 11400H,8  DDR4 3200 MHz,SSD 512,NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics
+Laptop Asus Vivobook M3504YA-L1268W,18.490.000,AMD Ryzen 5 7530U,16  (2 thanh 8 ),SSD 512,Intel Iris Xe Graphics
+Laptop Asus Vivobook A1503ZA-L1139W,20.490.000,Intel Core i5 12500H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
+Laptop CHUWI GemiBook Celeron,4.690.000,Intel Celeron J4125,8,SSD 256,Intel HD Graphics
+Laptop Asus Vivobook X1502ZA-BQ126W,17.490.000,Intel Core i5 1240P,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Acer Aspire 3,12.990.000,Intel Core i5 1035G1,8  (2 thanh 4 ) DDR4 2400 MHz,SSD 512,NVIDIA GeForce MX330 2GB; Intel UHD Graphics
+Laptop Asus Vivobook X515EA-EJ4111W,13.990.000,Intel Core i5 1135G7,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
+Laptop Lenovo Ideapad 3,16.290.000,Intel Core i7 1255U,16  DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Asus Vivobook 15,20.490.000,Intel Core i5 13500H,16  DDR4 3200 MHz,SSD 512,Intel UHD Graphics
+Laptop Lenovo Ideapad Slim,19.490.000,AMD Ryzen 7 7730U,16  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
+Laptop Asus Vivobook A1405VA-KM059W,19.990.000,Intel Core i5 13500H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
+Laptop HP Gaming Victus,26.290.000,AMD Ryzen 7 6800H,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
+Laptop Asus TUF Gaming,33.490.000,AMD Ryzen 7 7735HS,8  DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4060 8GB; AMD Radeon Graphics
+Laptop HP 245 G10,10.990.000,AMD Ryzen 5 7520U,8,SSD 256,AMD Radeon Graphics
+Laptop Acer Aspire 3,8.690.000,Intel Core i3 1215U,8  DDR4 3200 MHz,SSD 256,Intel UHD Graphics
+Laptop Lenovo Ideapad 3,16.990.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Acer Swift 3,20.990.000,Intel Core i5 1135G7,16  LPDDR4X 4266 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop HP 14s-dq2644TU i3,11.890.000,Intel Core i3 1115G4,8  (1 thanh 8 ),SSD 256,Intel UHD Graphics
+Laptop HP 15s fq5160TU,19.490.000,Intel Core i5 1235U,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Asus Vivobook E1504FA-NJ426W,8.990.000,AMD Ryzen 3 7320U,8  LPDDR5 5500 MHz,SSD 256,Intel UHD Graphics
+Laptop Asus Zenbook UX3402ZA-KM218W,24.990.000,Intel Core i5 1240P,8  DDR5 4800 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Acer Nitro Gaming,29.490.000,Intel Core i7 12700H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
+Laptop HP 15s fq2712TU,11.690.000,Intel Core i3 1115G4,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 256,Intel UHD Graphics
+Laptop Lenovo IdeaPad Slim,16.990.000,Intel Core i5 12450H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,Intel UHD Graphics
+Laptop MSI Gaming Alpha,17.990.000,AMD Ryzen 5 5600H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,AMD Radeon RX 6600M 8GB; AMD Radeon Graphics Vega 6
+Laptop Gigabyte Gaming A5,19.290.000,AMD Ryzen 5 5600H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3060 6GB; AMD Radeon RX Graphics Vega 7
+Laptop Acer Aspire 3,13.990.000,Intel Core i5 1135G7,8  (2 thanh 4 ) DDR4 2400 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Huawei MateBook D14,10.790.000,Intel Core i3 1215U,8  DDR4,SSD 256,Intel UHD Graphics
+Laptop Lenovo Gaming Legion,40.490.000,AMD Ryzen 5 6600H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3060 6GB
+Laptop Acer Aspire 3,11.990.000,AMD Ryzen 5 7520U,8,SSD 512,AMD Radeon Graphics
+Laptop Dell Inspiron 16,22.290.000,Intel Core i5 1240P,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Acer Nitro Gaming,23.490.000,Intel Core i5 11400H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
+Laptop Lenovo Gaming Legion,31.590.000,Intel Core i5 12500H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics
+Laptop Acer Aspire 5,13.090.000,Intel Core i5 1135G7,8  DDR4 2666 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Asus TUF Gaming,24.490.000,Intel Core i5 11400H,8  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
+Laptop Lenovo ThinkBook 14,16.990.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Asus TUF Gaming,33.990.000,Intel Core i7 12700H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 4060 8GB; Intel Iris Xe Graphics
+Laptop Asus Vivobook Pro,32.990.000,Intel Core i9 13900H,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
+Laptop MSI Modern 14,13.590.000,Intel Core i5 1235U,16  DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop HP Pavilion 15-eg2063TX,17.990.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce MX550 2GB; Intel Iris Xe Graphics
+Laptop MSI Modern 14,10.690.000,Intel Core i3 1115G4,8  DDR4 3200 MHz,SSD 512,Intel UHD Graphics
+Laptop HP ProBook 440,24.990.000,Intel Core i7 1360P,16,SSD 512,Intel UHD Graphics
+Laptop MSI Gaming Katana,32.390.000,Intel Core i7 13620H,16  (2 thanh 8 ) DDR5 5200 MHz,SSD 1 TB,NVIDIA GeForce RTX 4060 8GB; Intel UHD Graphics
+Laptop HP 240 G9,17.790.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Lenovo ThinkPad E16,21.990.000,Intel Core i5 1340P,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Lenovo ThinkPad E14,22.990.000,Intel Core i7 1255U,8  DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Lenovo ThinkPad E16,25.390.000,Intel Core i7 1355U,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop MSI Modern 14,11.790.000,AMD Ryzen 5 5625U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
+Laptop Asus Zenbook UX3402VA-KM203W,24.590.000,Intel Core i5 1340P,16  DDR5 4800 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Lenovo IdeaPad 5,13.490.000,AMD Ryzen 5 5625U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
+Laptop Acer Nitro Gaming,26.490.000,AMD Ryzen 7 5800H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3060 6GB; AMD Radeon Graphics
+Laptop Acer Nitro 5,25.990.000,Intel Core i5 12450H,8  DDR5,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6
+Microsoft Surface Laptop Go,14.890.000,Intel Core i5 1035G1,8  LPDDR4X 3733 MHz,SSD 128,Intel UHD Graphics
+Laptop MSI Gaming Cyborg,24.690.000,Intel Core i7 12650H,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel UHD Graphics
+Laptop Asus Zenbook Flip,29.490.000,Intel Core i5 1340P,16  LPDDR5 5500 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop MSI Gaming Katana,17.990.000,Intel Core i5 12450H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
+Laptop Acer Aspire 3,11.490.000,Intel Core i5 1135G7,8  (2 thanh 4 ) DDR4 2400 MHz,SSD 256,Intel Iris Xe Graphics
+Laptop Lenovo IdeaPad 3,14.290.000,Intel Core i3 1215U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
+Laptop Lenovo IdeaPad 3,14.190.000,Intel Core i3 1215U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
+Laptop Acer Swift Edge,36.990.000,AMD Ryzen 7 6800H,16  (1 thanh 16 ) LPDDR5 6400 MHz,SSD 1 TB,AMD Radeon Graphics
+Laptop MSI Creator M16,37.290.000,Intel Core i7 13700H,16  DDR5 5200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6
+Laptop MSI Summit E14,23.290.000,Intel Core i7 1280P,16  LPDDR5 4800 MHz,SSD 512,Intel Iris Xe Graphics
+MacBook Pro 16 inch,85.690.000,Apple M2 Max 12-Core,32  Hãng không công bố Hãng không công bố,SSD 1 TB,Apple M2 Max 38-core GPU
+MacBook Pro 16 inch,76.990.000,Apple M2 Pro 12-Core,32  (1 thanh 16 ) Hãng không công bố Hãng không công bố,SSD 512,Apple M2 Pro 16-core GPU
+Laptop MSI Gaming Raider,60.990.000,Intel Core i7 13700HX,32  (2 thanh 16 ) DDR5 5600 MHz,SSD 2 TB,NVIDIA Geforce RTX 4070 8GB GDDR6; Intel UHD Graphics
+MacBook Pro 16 inch,58.990.000,Apple M2 Pro 12-Core,16  (1 thanh 16 ) Hãng không công bố Hãng không công bố,SSD 512,Apple M2 Pro 16-core GPU
+MacBook Pro 14 inch,58.490.000,Apple M2 Pro 10-Core,32  Hãng không công bố Hãng không công bố,SSD 512,Apple M2 Pro 16-core GPU
+MacBook Pro 14 inch,49.990.000,Apple M1 Pro,16,SSD 1 TB,Apple M1
+Laptop Asus Gaming ROG,49.990.000,Intel Core i9 12900H,32  (2 thanh 16 ) DDR5 4800 MHz,SSD 2 TB,NVIDIA GeForce RTX 3080 8GB
+Laptop Asus Zenbook Pro,49.490.000,Intel Core i9 13900H,32  (2 thanh 16 ) DDR5 4800 MHz,SSD 1 TB,NVIDIA GeForce RTX 4060 8GB; Intel UHD Graphics
+Laptop Microsoft Surface Pro,43.990.000,Intel Core i7 1255U,16  (1 thanh 16 ) DDR5 4800 MHz,SSD 256,Intel Iris Xe Graphics
+Laptop Asus Gaming ROG,39.990.000,Intel Core i7 13620H,16  (1 thanh 16 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel Iris Xe Graphics
+Laptop Acer Predator Helios,38.990.000,Intel Core i7 13700HX,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6
+MacBook Air 15 M2,37.890.000,Apple M2 8 - Core,8  Hãng không công bố Hãng không công bố MHz,SSD 512,Apple M2 GPU 10 nhân
+Laptop Asus Gaming ROG,36.990.000,AMD Ryzen 9 6900HX,16  (1 thanh 16 ) DDR5 4800 MHz,SSD 1 TB,NVIDIA GeForce RTX 3070 Ti 8GB
+MacBook Air 15 inch,36.490.000,Apple M2 8 - Core,16  Hãng không công bố Hãng không công bố,SSD 256,Apple M2 GPU 10 nhân
+MacBook Pro 13 inch,35.490.000,Apple M2 8 - Core,16  LPDDR4 3200 MHz,SSD 256,Apple M2 GPU 10 nhân
+Laptop LG Gram 14Z90R-G.AH75A5,35.000.000,Intel Core i7 1360P,16,SSD 512,Intel Iris Xe Graphics
+Laptop Lenovo Gaming Legion,44.490.000,AMD Ryzen 7 6800H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3060 6GB; AMD Radeon Graphics
+MacBook Air 13 inch,31.690.000,Apple M2 8 - Core,16  LPDDR4 3200 MHz,SSD 256,Apple M2 GPU 8 nhân
+MacBook Air 15 inch,31.490.000,Apple M2 8 - Core,8  Hãng không công bố Hãng không công bố,SSD 256,Apple M2 GPU 10 nhân
+Laptop Asus Zenbook Flip,30.490.000,Intel Core i7 1360P,16  DDR5 LPDDR5 4800 MHz,SSD 512,Intel UHD Graphics 605
+MacBook Pro 13 inch,29.890.000,Apple M2 8 - Core,8  LPDDR4 3200 MHz,SSD 256,Apple M2 GPU 10 nhân
+Laptop Gigabyte Gaming Aorus,28.990.000,Intel Core i5 12500H,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel Iris Xe Graphics
+Laptop Asus TUF Gaming,27.990.000,Intel Core i7 12700H,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel UHD Graphics
+MacBook Air 13 inch,27.990.000,Apple M1,16  LPDDR4,SSD 256,Apple M1 GPU 7 nhân
+Laptop MSI Gaming Cyborg,27.190.000,Intel Core i7 12650H,8  (1 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 4060 8GB; Intel HD Graphics
+MacBook Air 13 inch,26.990.000,Apple M2 8 - Core,8  LPDDR4 3200 MHz,SSD 256,Apple M2 GPU 8 nhân
+Laptop Acer Swift 3,29.990.000,Intel Core i7 1260P,16  (1 thanh 16 ) LPDDR4,SSD 1 TB,Intel Iris Xe Graphics
+Laptop LG Gram 14Z90R-G.AH53A5,25.990.000,Intel Core i5 1340P,16,SSD 256,Intel Iris Xe Graphics
+Laptop Asus Vivobook Flip,23.990.000,Intel Core i9 13900H,16  (2 thanh 8 ) DDR4 5500 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Dell Inspiron 14,23.490.000,Intel Core i5 1335U,8  (1 thanh 8 ) LPDDR5 4800 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop HP Pavilion 14-dv2071TU,24.690.000,Intel Core i7 1255U,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Acer Aspire 7,19.990.000,Intel Core i5 12450H,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB
+Laptop Dell Inspiron 15,19.690.000,Intel Core i7 1255U,8,SSD 512,Intel Iris Xe Graphics
+MacBook Air 13 inch,19.190.000,Apple M1,8  LPDDR4,SSD 256,Apple M1 GPU 7 nhân
+Laptop Lenovo ThinkPad E14,18.990.000,AMD Ryzen 7 5700U,8  DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
+Laptop MSI Gaming GF63,18.890.000,Intel Core i5 12450H,16  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; Intel UHD Graphics
+Laptop VAIO FE14 i5,16.990.000,Intel Core i5 1235U,8  (2 thanh 4 ) LPDDR4 4266 MHz,SSD 512,Intel UHD Graphics
+Laptop Lenovo Yoga 7,16.990.000,AMD Ryzen 7 5800U,8  LPDDR4X 4266 MHz,SSD 512,AMD Radeon Graphics
+Laptop MSI Modern 15,18.090.000,Intel Core i5 1335U,8  DDR4 3200 MHz,SSD 512,Intel UHD Graphics
+Laptop MSI Gaming GF63,16.490.000,Intel Core i5 12450H,8  DDR4,SSD 512,NVIDIA Geforce RTX 2050 4GB
+Laptop MSI Modern 15,15.490.000,AMD Ryzen 7 7730U,16  (1 thanh 16 ) DDR4 3200 MHz,SSD 512,AMD Radeon Graphics
+Laptop HP Pavilion 15,14.990.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 256,NVIDIA GeForce MX550 2GB; Intel Iris Xe Graphics
+Laptop HP 15s fq5161TU,14.690.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop HP Pavilion 15,14.490.000,Intel Core i5 1240P,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 256,Intel Iris Xe Graphics
+Laptop MSI Modern 15,13.990.000,Intel Core i5 1235U,16  DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop HP Pavilion 14,13.990.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 256,Intel Iris Xe Graphics
+Laptop HP Pavilion 14,13.990.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 256,Intel Iris Xe Graphics
+"Laptop HP 15s-fq5081TU i5-1235U/8GB/256GB/15.6""HD/Win",15.890.000,Intel Core i5 1235U,8  (2 thanh 4 ) DDR4 3200 MHz,SSD 256,Intel Iris Xe Graphics
+Laptop Lenovo V14 G3,11.490.000,Intel Core i5 1235U,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel Iris Xe Graphics
+Laptop Lenovo IdeaPad 1,11.290.000,AMD Ryzen 5 5500U,16  (2 thanh 8 ) DDR4 3200 MHz,SSD 512,AMD Radeon 610 2GB; AMD Radeon Graphics
+"Laptop Asus Vivobook A515EA-BQ3013W/i3-1115G4/8GB/256GB/15.6""FHD/Win",10.490.000,Intel Core i3 1115G4,8  DDR4 3200 MHz,SSD 256,Intel UHD Graphics
+Laptop MSI Gaming Creator,63.990.000,Intel Core i7 13700HX,32  (2 thanh 16 ) DDR5 5600 MHz,SSD 2 TB,NVIDIA GeForce RTX 4060 8GB
+Laptop Asus Zenbook Pro,62.990.000,Intel Core i9 13900H,32  LPDDR5 4800 MHz,SSD 1 TB,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel Iris Xe Graphics
+Laptop Asus Gaming ROG,54.490.000,Intel Core i7 13650HX,16  (1 thanh 16 ) DDR5 4800 MHz,SSD 1 TB,NVIDIA Geforce RTX 4070 8GB GDDR6; Intel UHD Graphics
+Laptop MSI Gaming Creator,47.590.000,Intel Core i7 12700H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 1 TB,NVIDIA GeForce RTX 3060 6GB; Intel Iris Xe Graphics
+Laptop Lenovo Gaming Legion,42.990.000,Intel Core i7 13700H,16  (2 thanh 8 ) DDR5 5200 MHz,SSD 512,NVIDIA GeForce RTX 4060 8GB
+Laptop Lenovo Gaming LOQ,29.990.000,Intel Core i5 13400,8  (1 thanh 8 ) DDR5 5200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6
+Laptop Lenovo ThinkBook 14p,26.890.000,AMD Ryzen 5 6600H,16  DDR5 6400 MHz,SSD 512,AMD Radeon Graphics
+Laptop Gigabyte Gaming G5,21.990.000,Intel Core i5 12450H,8  DDR4 3200 MHz,SSD 512,NVIDIA GeForce RTX 4050 6GB GDDR6; Intel Iris Xe Graphics
+Laptop Asus Vivobook A515EA-L12033W,19.990.000,Intel Core i5 1135G7,8  (1 thanh 8 ) DDR4 3200 MHz,SSD 512,Intel UHD Graphics
+Laptop Lenovo Ideapad Gaming,18.990.000,AMD Ryzen 5 6600H,16  (2 thanh 8 ) DDR5 4800 MHz,SSD 512,NVIDIA GeForce RTX 3050 4GB; AMD Radeon Graphics
