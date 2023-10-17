@@ -21,7 +21,7 @@ def identity_block(X, f, filters, training=True, initializer=random_uniform):
     # Retrieve Filters
     F1, F2, F3 = filters
     
-    # Save the input value. You'll need this later to add back to the main path. 
+    
     X_shortcut = X
     
     # First component of main path
@@ -29,8 +29,8 @@ def identity_block(X, f, filters, training=True, initializer=random_uniform):
     X = BatchNormalization(axis = 3)(X) # Default axis
     X = Activation('relu')(X)
     
-    ### START CODE HERE
-    ## Second component of main path (≈3 lines)
+    
+    ## Second component of main path 
     X = Conv2D(filters = F2, kernel_size = f, strides = (1,1), padding = 'same', kernel_initializer = initializer(seed=0))(X)
     X = BatchNormalization(axis = 3)(X)
     X = Activation('relu')(X) 
@@ -42,7 +42,6 @@ def identity_block(X, f, filters, training=True, initializer=random_uniform):
     ## Final step: Add shortcut value to main path, and pass it through a RELU activation 
     X = Add()([X, X_shortcut])
     X = Activation('relu')(X) 
-    ### END CODE HERE
 
     return X
 
@@ -71,7 +70,7 @@ def convolutional_block(X, f, filters, s = 2, training=True, initializer=glorot_
     X_shortcut = X
 
     
-    # First component of main path glorot_uniform(seed=0)
+    # First component of main path glorot_uniform
     X = Conv2D(filters = F1, kernel_size = 1, strides = (s, s), padding='valid', kernel_initializer = initializer(seed=0))(X)
     X = BatchNormalization(axis = 3)(X, training=training)
     X = Activation('relu')(X)
@@ -85,12 +84,12 @@ def convolutional_block(X, f, filters, s = 2, training=True, initializer=glorot_
     X = Conv2D(filters = F3, kernel_size = 1, strides = (1, 1), padding='valid', kernel_initializer = initializer(seed=0))(X)
     X = BatchNormalization(axis = 3)(X, training=training)
     
-    ##### SHORTCUT PATH ##### 
+    
     X_shortcut = Conv2D(filters = F3, kernel_size = 1, strides = (s, s), padding='valid', kernel_initializer = initializer(seed=0))(X_shortcut)
     X_shortcut = BatchNormalization(axis = 3)(X_shortcut, training=training)
     
 
-    # Final step: Add shortcut value to main path (Use this order [X, X_shortcut]), and pass it through a RELU activation
+    # Final step: Add shortcut value to main path, and pass it through a RELU activation
     X = Add()([X, X_shortcut])
     X = Activation('relu')(X)
 
@@ -131,30 +130,30 @@ def ResNet50(input_shape = (64, 64, 3), classes = 6, training=False):
     X = identity_block(X, 3, [64, 64, 256])
     
     ## Stage 3
-    # `convolutional_block` with correct values of `f`, `filters` and `s` for this stage
+    
     X = convolutional_block(X, f=3, filters = [128, 128, 512], s=2)
     
-    # the 3 `identity_block` with correct values of `f` and `filters` for this stage
+    
     X = identity_block(X, 3, [128, 128, 512])
     X = identity_block(X, 3, [128, 128, 512])
     X = identity_block(X, 3, [128, 128, 512])
 
     # Stage 4 
-    # add `convolutional_block` with correct values of `f`, `filters` and `s` for this stage
+    # add `convolutional_block` with correct values of 
     X = convolutional_block(X, f=3, filters= [256, 256, 1024], s=2)
     
-    # the 5 `identity_block` with correct values of `f` and `filters` for this stage
+    # the 5 `identity_block` with correct values of 
     X = identity_block(X, 3, [256, 256, 1024])
     X = identity_block(X, 3, [256, 256, 1024])
     X = identity_block(X, 3, [256, 256, 1024])
     X = identity_block(X, 3, [256, 256, 1024])
     X = identity_block(X, 3, [256, 256, 1024])
 
-    # Stage 5 (≈3 lines)
-    # add `convolutional_block` with correct values of `f`, `filters` and `s` for this stage
+    # Stage 5 
+    # add `convolutional_block` with correct values of
     X = convolutional_block(X, f = 3, filters = [512, 512, 2048], s=2)
     
-    # the 2 `identity_block` with correct values of `f` and `filters` for this stage
+    # the 2 `identity_block` with correct values of 
     X = identity_block(X, 3, [512, 512, 2048])
     X = identity_block(X, 3, [512, 512, 2048])
 
