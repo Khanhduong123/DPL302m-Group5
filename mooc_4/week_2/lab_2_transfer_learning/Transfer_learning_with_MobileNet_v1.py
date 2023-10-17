@@ -56,7 +56,7 @@ def alpaca_model(image_shape=None, data_augmentation=data_augmenter()):
     '''
     
     
-    input_shape = image_shape + (3,)
+    input_shape = image_shape + (3,) #RGB channel
 
     base_model = tf.keras.applications.MobileNetV2(input_shape=input_shape,
                                                    include_top=False, # <== Important!!!!
@@ -69,7 +69,7 @@ def alpaca_model(image_shape=None, data_augmentation=data_augmenter()):
     inputs = tf.keras.Input(shape=input_shape) 
     x = data_augmentation(inputs)
     x = preprocess_input(x) 
-    x = base_model(x, training=False) 
+    x = base_model(x, training=False) #pass preprocess input thourgh input model
     x = tfl.GlobalAveragePooling2D()(x) 
     # include dropout with probability of 0.2 to avoid overfitting
     x = tfl.Dropout(0.2)(x)
@@ -81,21 +81,19 @@ def alpaca_model(image_shape=None, data_augmentation=data_augmenter()):
     return model
 
 def fine_tunning():
-    base_model = model2.layers[4]
-    base_model.trainable = True
-    # Let's take a look to see how many layers are in the base model
+    base_model = model2.layers[4] #take layer 4 in previous model
+    base_model.trainable = True #set up this layer for trainning
+    # see how many layers are in the base model
     print("Number of layers in the base model: ", len(base_model.layers))
 
     # Fine-tune from this layer onwards
-    fine_tune_at = 120
-
-    ### START CODE HERE
+    fine_tune_at = 120 #fine-tune in 120th layer, layer before nontrain
 
     # Freeze all the layers before the `fine_tune_at` layer
     for layer in base_model.layers[:fine_tune_at]:
         layer.trainable = False
         
-    # Define a BinaryCrossentropy loss function. Use from_logits=True
+    # Define a BinaryCrossentropy loss function.
     loss_function=tf.keras.losses.BinaryCrossentropy(from_logits=True)
     # Define an Adam optimizer with a learning rate of 0.1 * base_learning_rate
     optimizer = tf.keras.optimizers.Adam(lr=base_learning_rate/10)
@@ -114,12 +112,12 @@ if __name__ =='__main__':
     train_dataset , validation_dataset = load_data(directory,BATCH_SIZE,IMG_SIZE)
     augmenter = data_augmenter()
     plot_data_augmenter(train_dataset)
-    AUTOTUNE = tf.data.experimental.AUTOTUNE
+    AUTOTUNE = tf.data.experimental.AUTOTUNE # Tối ưu hoá đường dẫn dữ liệu, tập dữ liệu được tìm và nạp trc để cải thiện tốc độ truyền tải dữ liệu
     train_dataset = train_dataset.prefetch(buffer_size=AUTOTUNE)
     preprocess_input = tf.keras.applications.mobilenet_v2.preprocess_input
 
     #download model pre-train
-    IMG_SHAPE = IMG_SIZE + (3,)
+    IMG_SHAPE = IMG_SIZE + (3,) #RGB channel
     base_model = tf.keras.applications.MobileNetV2(input_shape=IMG_SHAPE,
                                                include_top=True,
                                                weights='imagenet')
