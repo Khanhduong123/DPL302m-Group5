@@ -4,18 +4,18 @@ from utils import *
 
 def identity_block(X, f, filters, training=True, initializer=random_uniform):
     """
-    Implementation of the identity block as defined 
+    Implementation  the identity block as defined 
     
     Arguments:
-    X -- input tensor of shape (m, n_H_prev, n_W_prev, n_C_prev)
-    f -- integer, specifying the shape of the middle CONV's window for the main path
-    filters -- python list of integers, defining the number of filters in the CONV layers of the main path
+    X -- input tensor  shape (m, n_H_prev, n_W_prev, n_C_prev)
+    f -- integer, specifying the shape  the middle CONV's window for the main path
+    filters -- python list  integers, defining the number  filters in the CONV layers  the main path
     training -- True: Behave in training mode
                 False: Behave in inference mode
-    initializer -- to set up the initial weights of a layer. Equals to random uniform initializer
+    initializer -- to set up the initial weights  a layer. Equals to random uniform initializer
     
     Returns:
-    X -- output of the identity block, tensor of shape (n_H, n_W, n_C)
+    X -- output  the identity block, tensor  shape (n_H, n_W, n_C)
     """
     
     # Retrieve Filters
@@ -24,18 +24,18 @@ def identity_block(X, f, filters, training=True, initializer=random_uniform):
     
     X_shortcut = X
     
-    # First component of main path
+    # First component  main path
     X = Conv2D(filters = F1, kernel_size = 1, strides = (1,1), padding = 'valid', kernel_initializer = initializer(seed=0))(X)
     X = BatchNormalization(axis = 3)(X) # Default axis
     X = Activation('relu')(X)
     
     
-    ## Second component of main path 
+    ## Second component  main path 
     X = Conv2D(filters = F2, kernel_size = f, strides = (1,1), padding = 'same', kernel_initializer = initializer(seed=0))(X)
     X = BatchNormalization(axis = 3)(X)
     X = Activation('relu')(X) 
 
-    ## Third component of main path 
+    ## Third component  main path 
     X = Conv2D(filters = F3, kernel_size = 1, strides = (1,1), padding = 'valid', kernel_initializer = initializer(seed=0))(X)
     X = BatchNormalization(axis = 3)(X)
     
@@ -47,20 +47,20 @@ def identity_block(X, f, filters, training=True, initializer=random_uniform):
 
 def convolutional_block(X, f, filters, s = 2, training=True, initializer=glorot_uniform):
     """
-    Implementation of the convolutional block as defined 
+    Implementation  the convolutional block as defined 
     
     Arguments:
-    X -- input tensor of shape (m, n_H_prev, n_W_prev, n_C_prev)
-    f -- integer, specifying the shape of the middle CONV's window for the main path
-    filters -- python list of integers, defining the number of filters in the CONV layers of the main path
+    X -- input tensor  shape (m, n_H_prev, n_W_prev, n_C_prev)
+    f -- integer, specifying the shape  the middle CONV's window for the main path
+    filters -- python list  integers, defining the number  filters in the CONV layers  the main path
     s -- Integer, specifying the stride to be used
     training -- True: Behave in training mode
                 False: Behave in inference mode
-    initializer -- to set up the initial weights of a layer. Equals to Glorot uniform initializer, 
+    initializer -- to set up the initial weights  a layer. Equals to Glorot uniform initializer, 
                    also called Xavier uniform initializer.
     
     Returns:
-    X -- output of the convolutional block, tensor of shape (n_H, n_W, n_C)
+    X -- output  the convolutional block, tensor  shape (n_H, n_W, n_C)
     """
     
     # Retrieve Filters
@@ -70,17 +70,17 @@ def convolutional_block(X, f, filters, s = 2, training=True, initializer=glorot_
     X_shortcut = X
 
     
-    # First component of main path glorot_uniform
+    # First component  main path glorot_uniform
     X = Conv2D(filters = F1, kernel_size = 1, strides = (s, s), padding='valid', kernel_initializer = initializer(seed=0))(X)
     X = BatchNormalization(axis = 3)(X, training=training)
     X = Activation('relu')(X)
     
-    ## Second component of main path 
+    ## Second component  main path 
     X = Conv2D(filters = F2, kernel_size = f, strides = (1, 1), padding='same', kernel_initializer = initializer(seed=0))(X)
     X = BatchNormalization(axis = 3)(X, training=training)
     X = Activation('relu')(X)
 
-    ## Third component of main path 
+    ## Third component  main path 
     X = Conv2D(filters = F3, kernel_size = 1, strides = (1, 1), padding='valid', kernel_initializer = initializer(seed=0))(X)
     X = BatchNormalization(axis = 3)(X, training=training)
     
@@ -99,13 +99,13 @@ def convolutional_block(X, f, filters, s = 2, training=True, initializer=glorot_
 
 def ResNet50(input_shape = (64, 64, 3), classes = 6, training=False):
     """
-    Stage-wise implementation of the architecture of the popular ResNet50:
+    Stage-wise implementation  the architecture  the popular ResNet50:
     CONV2D -> BATCHNORM -> RELU -> MAXPOOL -> CONVBLOCK -> IDBLOCK*2 -> CONVBLOCK -> IDBLOCK*3
     -> CONVBLOCK -> IDBLOCK*5 -> CONVBLOCK -> IDBLOCK*2 -> AVGPOOL -> FLATTEN -> DENSE 
 
     Arguments:
-    input_shape -- shape of the images of the dataset
-    classes -- integer, number of classes
+    input_shape -- shape  the images  the dataset
+    classes -- integer, number  classes
 
     Returns:
     model -- a Model() instance in Keras
@@ -139,10 +139,10 @@ def ResNet50(input_shape = (64, 64, 3), classes = 6, training=False):
     X = identity_block(X, 3, [128, 128, 512])
 
     # Stage 4 
-    # add `convolutional_block` with correct values of 
+    # add `convolutional_block` with correct values  
     X = convolutional_block(X, f=3, filters= [256, 256, 1024], s=2)
     
-    # the 5 `identity_block` with correct values of 
+    # the 5 `identity_block` with correct values  
     X = identity_block(X, 3, [256, 256, 1024])
     X = identity_block(X, 3, [256, 256, 1024])
     X = identity_block(X, 3, [256, 256, 1024])
@@ -150,10 +150,10 @@ def ResNet50(input_shape = (64, 64, 3), classes = 6, training=False):
     X = identity_block(X, 3, [256, 256, 1024])
 
     # Stage 5 
-    # add `convolutional_block` with correct values of
+    # add `convolutional_block` with correct values 
     X = convolutional_block(X, f = 3, filters = [512, 512, 2048], s=2)
     
-    # the 2 `identity_block` with correct values of 
+    # the 2 `identity_block` with correct values  
     X = identity_block(X, 3, [512, 512, 2048])
     X = identity_block(X, 3, [512, 512, 2048])
 
@@ -183,8 +183,8 @@ def load_data():
     Y_train = convert_to_one_hot(Y_train_orig, 6).T
     Y_test = convert_to_one_hot(Y_test_orig, 6).T
 
-    print ("number of training examples = " + str(X_train.shape[0]))
-    print ("number of test examples = " + str(X_test.shape[0]))
+    print ("number  training examples = " + str(X_train.shape[0]))
+    print ("number  test examples = " + str(X_test.shape[0]))
     print ("X_train shape: " + str(X_train.shape))
     print ("Y_train shape: " + str(Y_train.shape))
     print ("X_test shape: " + str(X_test.shape))
