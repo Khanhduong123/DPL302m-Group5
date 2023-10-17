@@ -259,7 +259,7 @@ if __name__ == '__main__':
 
     comparator(summary(model1), output1)
 
-    
+    #test unnet model
     img_height = 96
     img_width = 128
     num_channels = 3
