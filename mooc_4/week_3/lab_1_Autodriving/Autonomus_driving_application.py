@@ -15,7 +15,10 @@ from tensorflow.keras.models import load_model
 from yad2k.models.keras_yolo import yolo_head
 from yad2k.utils.utils import draw_boxes, get_colors_for_classes, scale_boxes, read_classes, read_anchors, preprocess_image
 
-
+class_names = read_classes("model_data/coco_classes.txt")
+anchors = read_anchors("model_data/yolo_anchors.txt")
+model_image_size = (608, 608)
+yolo_model = load_model("model_data/", compile=False)
 
 
 def yolo_filter_boxes(boxes, box_confidence, box_class_probs, threshold = .6):
@@ -200,121 +203,127 @@ def predict(image_file):
     return out_scores, out_boxes, out_classes
 
 if __name__ =="__main__":
-    class_names = read_classes("model_data/coco_classes.txt")
-    anchors = read_anchors("model_data/yolo_anchors.txt")
-    model_image_size = (608, 608)
-    yolo_model = load_model("model_data/", compile=False)
-
+    """
+    Test the result
+    """
+    def test_yolo_filter_boxes():
     
-    tf.random.set_seed(10)
-    box_confidence = tf.random.normal([19, 19, 5, 1], mean=1, stddev=4, seed = 1)
-    boxes = tf.random.normal([19, 19, 5, 4], mean=1, stddev=4, seed = 1)
-    box_class_probs = tf.random.normal([19, 19, 5, 80], mean=1, stddev=4, seed = 1)
-    scores, boxes, classes = yolo_filter_boxes(boxes, box_confidence, box_class_probs, threshold = 0.5)
-    print("scores[2] = " + str(scores[2].numpy()))
-    print("boxes[2] = " + str(boxes[2].numpy()))
-    print("classes[2] = " + str(classes[2].numpy()))
-    print("scores.shape = " + str(scores.shape))
-    print("boxes.shape = " + str(boxes.shape))
-    print("classes.shape = " + str(classes.shape))
+        tf.random.set_seed(10)
+        box_confidence = tf.random.normal([19, 19, 5, 1], mean=1, stddev=4, seed = 1)
+        boxes = tf.random.normal([19, 19, 5, 4], mean=1, stddev=4, seed = 1)
+        box_class_probs = tf.random.normal([19, 19, 5, 80], mean=1, stddev=4, seed = 1)
+        scores, boxes, classes = yolo_filter_boxes(boxes, box_confidence, box_class_probs, threshold = 0.5)
+        print("scores[2] = " + str(scores[2].numpy()))
+        print("boxes[2] = " + str(boxes[2].numpy()))
+        print("classes[2] = " + str(classes[2].numpy()))
+        print("scores.shape = " + str(scores.shape))
+        print("boxes.shape = " + str(boxes.shape))
+        print("classes.shape = " + str(classes.shape))
 
-    assert type(scores) == EagerTensor, "Use tensorflow functions"
-    assert type(boxes) == EagerTensor, "Use tensorflow functions"
-    assert type(classes) == EagerTensor, "Use tensorflow functions"
+        assert type(scores) == EagerTensor, "Use tensorflow functions"
+        assert type(boxes) == EagerTensor, "Use tensorflow functions"
+        assert type(classes) == EagerTensor, "Use tensorflow functions"
 
-    assert scores.shape == (1789,), "Wrong shape in scores"
-    assert boxes.shape == (1789, 4), "Wrong shape in boxes"
-    assert classes.shape == (1789,), "Wrong shape in classes"
+        assert scores.shape == (1789,), "Wrong shape in scores"
+        assert boxes.shape == (1789, 4), "Wrong shape in boxes"
+        assert classes.shape == (1789,), "Wrong shape in classes"
 
-    assert np.isclose(scores[2].numpy(), 9.270486), "Values are wrong on scores"
-    assert np.allclose(boxes[2].numpy(), [4.6399336, 3.2303846, 4.431282, -2.202031]), "Values are wrong on boxes"
-    assert classes[2].numpy() == 8, "Values are wrong on classes"
+        assert np.isclose(scores[2].numpy(), 9.270486), "Values are wrong on scores"
+        assert np.allclose(boxes[2].numpy(), [4.6399336, 3.2303846, 4.431282, -2.202031]), "Values are wrong on boxes"
+        assert classes[2].numpy() == 8, "Values are wrong on classes"
 
-    print("\033[92m All tests passed!")
-
-
-    box1 = (2, 1, 4, 3)
-    box2 = (1, 2, 3, 4)
-
-    print("iou for intersecting boxes = " + str(iou(box1, box2)))
-    assert iou(box1, box2) < 1, "The intersection area must be always smaller or equal than the union area."
-    assert np.isclose(iou(box1, box2), 0.14285714), "Wrong value. Check your implementation. Problem with intersecting boxes"
-
-    ## Test case 2: boxes do not intersect
-    box1 = (1,2,3,4)
-    box2 = (5,6,7,8)
-    print("iou for non-intersecting boxes = " + str(iou(box1,box2)))
-    assert iou(box1, box2) == 0, "Intersection must be 0"
-
-    ## Test case 3: boxes intersect at vertices only
-    box1 = (1,1,2,2)
-    box2 = (2,2,3,3)
-    print("iou for boxes that only touch at vertices = " + str(iou(box1,box2)))
-    assert iou(box1, box2) == 0, "Intersection at vertices must be 0"
-
-    ## Test case 4: boxes intersect at edge only
-    box1 = (1,1,3,3)
-    box2 = (2,3,3,4)
-    print("iou for boxes that only touch at edges = " + str(iou(box1,box2)))
-    assert iou(box1, box2) == 0, "Intersection at edges must be 0"
-
-    print("\033[92m All tests passed!")
+        print("\033[92m All tests passed!")
 
 
-    tf.random.set_seed(10)
-    scores = tf.random.normal([54,], mean=1, stddev=4, seed = 1)
-    boxes = tf.random.normal([54, 4], mean=1, stddev=4, seed = 1)
-    classes = tf.random.normal([54,], mean=1, stddev=4, seed = 1)
-    scores, boxes, classes = yolo_non_max_suppression(scores, boxes, classes)
+    def test_iou():
+        box1 = (2, 1, 4, 3)
+        box2 = (1, 2, 3, 4)
 
-    assert type(scores) == EagerTensor, "Use tensoflow functions"
-    print("scores[2] = " + str(scores[2].numpy()))
-    print("boxes[2] = " + str(boxes[2].numpy()))
-    print("classes[2] = " + str(classes[2].numpy()))
-    print("scores.shape = " + str(scores.numpy().shape))
-    print("boxes.shape = " + str(boxes.numpy().shape))
-    print("classes.shape = " + str(classes.numpy().shape))
+        print("iou for intersecting boxes = " + str(iou(box1, box2)))
+        assert iou(box1, box2) < 1, "The intersection area must be always smaller or equal than the union area."
+        assert np.isclose(iou(box1, box2), 0.14285714), "Wrong value. Check your implementation. Problem with intersecting boxes"
 
-    assert type(scores) == EagerTensor, "Use tensoflow functions"
-    assert type(boxes) == EagerTensor, "Use tensoflow functions"
-    assert type(classes) == EagerTensor, "Use tensoflow functions"
+        ## Test case 2: boxes do not intersect
+        box1 = (1,2,3,4)
+        box2 = (5,6,7,8)
+        print("iou for non-intersecting boxes = " + str(iou(box1,box2)))
+        assert iou(box1, box2) == 0, "Intersection must be 0"
 
-    assert scores.shape == (10,), "Wrong shape"
-    assert boxes.shape == (10, 4), "Wrong shape"
-    assert classes.shape == (10,), "Wrong shape"
+        ## Test case 3: boxes intersect at vertices only
+        box1 = (1,1,2,2)
+        box2 = (2,2,3,3)
+        print("iou for boxes that only touch at vertices = " + str(iou(box1,box2)))
+        assert iou(box1, box2) == 0, "Intersection at vertices must be 0"
 
-    assert np.isclose(scores[2].numpy(), 8.147684), "Wrong value on scores"
-    assert np.allclose(boxes[2].numpy(), [ 6.0797963, 3.743308, 1.3914018, -0.34089637]), "Wrong value on boxes"
-    assert np.isclose(classes[2].numpy(), 1.7079165), "Wrong value on classes"
+        ## Test case 4: boxes intersect at edge only
+        box1 = (1,1,3,3)
+        box2 = (2,3,3,4)
+        print("iou for boxes that only touch at edges = " + str(iou(box1,box2)))
+        assert iou(box1, box2) == 0, "Intersection at edges must be 0"
 
-    print("\033[92m All tests passed!")
+        print("\033[92m All tests passed!")
 
+    def test_yolo_non_max_suppression():
+        tf.random.set_seed(10)
+        scores = tf.random.normal([54,], mean=1, stddev=4, seed = 1)
+        boxes = tf.random.normal([54, 4], mean=1, stddev=4, seed = 1)
+        classes = tf.random.normal([54,], mean=1, stddev=4, seed = 1)
+        scores, boxes, classes = yolo_non_max_suppression(scores, boxes, classes)
 
-    tf.random.set_seed(10)
-    yolo_outputs = (tf.random.normal([19, 19, 5, 2], mean=1, stddev=4, seed = 1),
-                    tf.random.normal([19, 19, 5, 2], mean=1, stddev=4, seed = 1),
-                    tf.random.normal([19, 19, 5, 1], mean=1, stddev=4, seed = 1),
-                    tf.random.normal([19, 19, 5, 80], mean=1, stddev=4, seed = 1))
-    scores, boxes, classes = yolo_eval(yolo_outputs)
-    print("scores[2] = " + str(scores[2].numpy()))
-    print("boxes[2] = " + str(boxes[2].numpy()))
-    print("classes[2] = " + str(classes[2].numpy()))
-    print("scores.shape = " + str(scores.numpy().shape))
-    print("boxes.shape = " + str(boxes.numpy().shape))
-    print("classes.shape = " + str(classes.numpy().shape))
+        assert type(scores) == EagerTensor, "Use tensoflow functions"
+        print("scores[2] = " + str(scores[2].numpy()))
+        print("boxes[2] = " + str(boxes[2].numpy()))
+        print("classes[2] = " + str(classes[2].numpy()))
+        print("scores.shape = " + str(scores.numpy().shape))
+        print("boxes.shape = " + str(boxes.numpy().shape))
+        print("classes.shape = " + str(classes.numpy().shape))
 
-    assert type(scores) == EagerTensor, "Use tensoflow functions"
-    assert type(boxes) == EagerTensor, "Use tensoflow functions"
-    assert type(classes) == EagerTensor, "Use tensoflow functions"
+        assert type(scores) == EagerTensor, "Use tensoflow functions"
+        assert type(boxes) == EagerTensor, "Use tensoflow functions"
+        assert type(classes) == EagerTensor, "Use tensoflow functions"
 
-    assert scores.shape == (10,), "Wrong shape"
-    assert boxes.shape == (10, 4), "Wrong shape"
-    assert classes.shape == (10,), "Wrong shape"
-        
-    assert np.isclose(scores[2].numpy(), 171.60194), "Wrong value on scores"
-    assert np.allclose(boxes[2].numpy(), [-1240.3483, -3212.5881, -645.78, 2024.3052]), "Wrong value on boxes"
-    assert np.isclose(classes[2].numpy(), 16), "Wrong value on classes"
-        
-    print("\033[92m All tests passed!")
-    yolo_model.summary()
-    out_scores, out_boxes, out_classes = predict("test.jpg")
+        assert scores.shape == (10,), "Wrong shape"
+        assert boxes.shape == (10, 4), "Wrong shape"
+        assert classes.shape == (10,), "Wrong shape"
+
+        assert np.isclose(scores[2].numpy(), 8.147684), "Wrong value on scores"
+        assert np.allclose(boxes[2].numpy(), [ 6.0797963, 3.743308, 1.3914018, -0.34089637]), "Wrong value on boxes"
+        assert np.isclose(classes[2].numpy(), 1.7079165), "Wrong value on classes"
+
+        print("\033[92m All tests passed!")
+
+    def test_yolo_eval():
+        tf.random.set_seed(10)
+        yolo_outputs = (tf.random.normal([19, 19, 5, 2], mean=1, stddev=4, seed = 1),
+                        tf.random.normal([19, 19, 5, 2], mean=1, stddev=4, seed = 1),
+                        tf.random.normal([19, 19, 5, 1], mean=1, stddev=4, seed = 1),
+                        tf.random.normal([19, 19, 5, 80], mean=1, stddev=4, seed = 1))
+        scores, boxes, classes = yolo_eval(yolo_outputs)
+        print("scores[2] = " + str(scores[2].numpy()))
+        print("boxes[2] = " + str(boxes[2].numpy()))
+        print("classes[2] = " + str(classes[2].numpy()))
+        print("scores.shape = " + str(scores.numpy().shape))
+        print("boxes.shape = " + str(boxes.numpy().shape))
+        print("classes.shape = " + str(classes.numpy().shape))
+
+        assert type(scores) == EagerTensor, "Use tensoflow functions"
+        assert type(boxes) == EagerTensor, "Use tensoflow functions"
+        assert type(classes) == EagerTensor, "Use tensoflow functions"
+
+        assert scores.shape == (10,), "Wrong shape"
+        assert boxes.shape == (10, 4), "Wrong shape"
+        assert classes.shape == (10,), "Wrong shape"
+            
+        assert np.isclose(scores[2].numpy(), 171.60194), "Wrong value on scores"
+        assert np.allclose(boxes[2].numpy(), [-1240.3483, -3212.5881, -645.78, 2024.3052]), "Wrong value on boxes"
+        assert np.isclose(classes[2].numpy(), 16), "Wrong value on classes"
+            
+        print("\033[92m All tests passed!")
+        yolo_model.summary()
+        out_scores, out_boxes, out_classes = predict("test.jpg")
+        return out_scores, out_boxes, out_classes
+    
+    test_yolo_filter_boxes()
+    test_iou()
+    test_yolo_non_max_suppression()
+    test_yolo_eval()
