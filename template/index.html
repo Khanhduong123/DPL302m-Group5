@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title> Shop điện thoại & máy tính</title>
-        <link rel="stylesheet"  href="styles.css">
+        <link rel="stylesheet"  href="{{ url_for('static', filename='styles/styles.css')}}">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
     <div class="popup_chatbox">
@@ -35,13 +35,13 @@
         </div>
     </div>
     
-    <script src="script.js"></script>
+    <script src="{{ url_for('static', filename='scripts/script.js')}}"></script>
         <div class="header">
 
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="https://fptshop.com.vn"><img src="image/logo.png" width="180" height="100" alt=""></a>
+                    <a href="https://fptshop.com.vn"><img src="{{ url_for('static', filename='images/logo.png')}}" width="180" height="100" alt=""></a>
                 </div> 
                 <nav>
                     <ul>
@@ -51,7 +51,7 @@
                         <li><a href="https://fptshop.com.vn/lien-he">Liên hệ</a></li>
                     </ul>
                  </nav>
-                 <a href="https://fptshop.com.vn/cart"><img src="image/cart.png" width="30px" height="30px"></a>
+                 <a href="https://fptshop.com.vn/cart"><img src="{{ url_for('static', filename='images/cart.png')}}" width="30px" height="30px"></a>
             </div>
             <div class="row">
                 <div class="col-2">
@@ -60,7 +60,7 @@
                     <a href="https://fptshop.com.vn" class="btn">Khám Phá &#8594</a>
                 </div>
                 <div class="col-2">
-                    <img src="image/hình điện thoại.png" >
+                    <img src="{{ url_for('static', filename='images/hình điện thoại.png')}}" >
                 </div>
             </div>
         </div>
@@ -71,20 +71,20 @@
                 <div class = "row">
                     <div class ="col-3">
                         <a href="https://fptshop.com.vn/dien-thoai/apple-iphone?sort=ban-chay-nhat">
-                            <img src="image\iphone-15-pro-max.jpg">
+                            <img src="{{ url_for('static', filename='images/iphone-15-pro-max.jpg')}}">
                             <h4 class="word">Iphone</h4>
                         </a>
                     </div>
                     
                     <div class ="col-3">
                         <a href="https://fptshop.com.vn/dien-thoai/samsung?sort=ban-chay-nhat">
-                            <img src="image\Samsung_galaxy_s23_Ultra.png">
+                            <img src="{{ url_for('static', filename='images/Samsung_galaxy_s23_Ultra.png')}}">
                             <h4 class="word">Samsung</h4>
                         </a>
                     </div>
                     <div class ="col-3">
                         <a href="https://fptshop.com.vn/dien-thoai/oppo?sort=ban-chay-nhat">
-                            <img src="image/oppo_reno_10.jpeg">
+                            <img src="{{ url_for('static', filename='images/oppo_reno_10.jpeg')}}">
                             <h4 class="word">Oppo</h4>
                         </a>
                     </div>
@@ -234,16 +234,16 @@
             <div class="small-container">
                 <div class="row">
                     <div class="col-5">
-                        <img src="image\apple_logo.png">                        
+                        <img src="{{ url_for('static', filename='images/apple_logo.png')}}">                        
                     </div>
                     <div class="col-5">
-                        <img src="image\samsung_logo.png">                        
+                        <img src="{{ url_for('static', filename='images/samsung_logo.png')}}">                        
                     </div>
                     <div class="col-5">
-                        <img src="image\oppo_logo.png">                        
+                        <img src="{{ url_for('static', filename='images/oppo_logo.png')}}">                        
                     </div>  
                     <div class="col-5">
-                        <img src="image\xiaomi_logo.png">                        
+                        <img src="{{ url_for('static', filename='images/xiaomi_logo.png')}}">                        
                     </div> 
                 </div>
             </div>
