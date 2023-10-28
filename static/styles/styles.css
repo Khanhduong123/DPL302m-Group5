@@ -42,8 +42,8 @@ p{
     position: fixed;
     bottom: 20px; /* Adjust the distance from the bottom as needed */
     right: 20px; /* Adjust the distance from the right as needed */
-    width: 350px; /* Set the desired width */
-    height: 450px; /* Set the desired height */
+    width: 50%; /* Set the desired width */
+    height: 70%; /* Set the desired height */
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #fff; /* Set a background color to make the chatbox opaque */
@@ -65,8 +65,7 @@ p{
 }
 
 .chat-messages {
-    height: calc(100% - 60px);
-    
+    height: calc(100% - 60px);   
     overflow-y: scroll;
     margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
@@ -75,10 +74,11 @@ p{
 .chat-input {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .chat-input input {
-    width: 70%;
+    width: 85%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -87,6 +87,7 @@ p{
 }
 
 .chat-input button {
+    width: 15%;
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4CAF50;
