@@ -1,0 +1,30 @@
+{
+    "Intenst":[
+        {
+            "Tags":"Information tags",
+            "Questions":[
+                "Sản phẩm Iphone 14 này có giá bao nhiêu?",
+                "Sản phẩm Iphone 15 có cấu hình như nào?",
+                "Cấu hình của sản phẩm Samsung galaxy 22 này như nào?",
+                "Sản phẩm Laptop MSI Gaming GF63 còn hàng không?",
+                "Giá của sản phẩm khi về shop là bao nhiêu?",
+                "Sản phẩm này được trang bị chip nào?",
+                "cho tôi hỏi giá của Macbook Air 13 2020 giá bao nhiêu ạ?",
+                "sản phẩm CPU Intel Core i5-10400F có giá là bao nhiêu?"
+            ]
+        },
+        {
+            "Tags" : "Non-Informations tags",
+            "Questions":[
+                "Xin chào",
+                "Hey",
+                "Bạn có khoẻ không?",
+                "Cảm ơn",
+                "Hẹn gặp lại bạn.",
+                "Có ship trên toàn quốc không?",
+                "Chính sách đổi trả sản phẩm như thế nào?",
+                "Bạn có người yêu chưa"
+            ]
+        }
+    ]
+}
