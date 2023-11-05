@@ -1,5 +1,4 @@
 from flask import Flask, render_template,request,jsonify
-import sqlite3
 from price_search import *
 # from flask_sqlalchemy import SQLAlchemy
 # import datetime
@@ -7,29 +6,7 @@ from price_search import *
 app = Flask(__file__, template_folder="./template", static_folder="./static")
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///instance/giasanpham.db"
 
-# db = SQLAlchemy(app)
-# class Users(db.Model):
-#     __tablename__ = "Users"
-#     id_ = db.Column(db.Integer, primary_key=True)
-#     name_ = db.Column(db.String(100))
-#     email_ = db.Column(db.String(100))
-#     date_ = db.Column(db.Date())
-#     count_ = db.Column(db.Integer)
-#     def __init__(self, email, name, date=datetime.datetime.now().date(), count=0):
-#         self.name_ = name
-#         self.email_ = email
-#         self.date_ = date
-#         self.count_ = count
-#     def __repr__(self):
-#         return '<User %r>' % self.email_
 
-
-# with app.app_context():
-#     db.create_all()
-#     db.session.commit()
-#@app.route("/", methods = ['GET'])
-#def root():
-#    return render_template("index.html")
 
 @app.route('/')
 def index():
@@ -44,25 +21,21 @@ def index():
     cursor.execute("SELECT * FROM thongtindienthoai WHERE phone_names LIKE '%iPhone 15 Pro 128GB%'")
     data_from_table2 = cursor.fetchall()
     
+    cursor.execute("SELECT * FROM thongtindienthoai WHERE phone_names LIKE '%Samsung Galaxy Z Fold5 5G 256GB%'")
+    data_from_table3 = cursor.fetchall()
+    
+    cursor.execute("SELECT * FROM thongtindienthoai WHERE phone_names LIKE '%OPPO Find N2 Flip%'")
+    data_from_table4 = cursor.fetchall()
+    
+    cursor.execute("SELECT * FROM thongtindienthoai WHERE phone_names LIKE '%Samsung Galaxy S23 Plus 5G 256GB%'")
+    data_from_table5 = cursor.fetchall()
+    
     conn.close()
     
-    return render_template('index.html', data1=data_from_table1, data2=data_from_table2)
+    return render_template('index.html', data1=data_from_table1, data2=data_from_table2, data3=data_from_table3,
+                           data4=data_from_table4, data5=data_from_table5)
 
-@app.route('/', methods=['GET'])
-def chat():
-    print("Done")
-    # Preprocess input text
-    # ...
 
-    # Get model prediction
-    # prediction = model.predict([input_text])
-    
-    # Postprocess prediction
-    # ...
-    
-    # response = {'prediction': prediction}
-    # return jsonify(response)
-    return render_template("index.html")
 
 
 @app.route('/', methods=['POST'])
@@ -73,7 +46,7 @@ def post():
     # You can perform processing on user_message if needed
     # For example, you can pass it to a chatbot model for generating a response
     # For now, let's echo the user input back to the frontend
-    result = price(user_message)
+    result = chatbot(user_message)
     # Construct the response data including the user input
     response_data = {
         'user_message': user_message,

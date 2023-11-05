@@ -128,6 +128,7 @@
                     {% endfor %}
                 </div>
                 <div class ="col-4">
+                    {% for row in data3 %}
                     <a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-z-fold5?dung-luong=256-gb">
                         <img src="{{ url_for('static', filename='images/Samsung_Galaxy_Z_Fold5.png')}}">
                         <h4>Samsung Galaxy Z Fold 5</h4>
@@ -139,9 +140,11 @@
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star-half-o" ></i>
                     </div>
-                    <p>31.990.000đ</p>
+                    <p>{{ row[1] }}đ</p>
+                    {% endfor %}
                 </div>
                 <div class ="col-4">
+                    {% for row in data4 %}
                     <a href="https://fptshop.com.vn/dien-thoai/oppo-find-n2-flip">
                         <img src="{{ url_for('static', filename='images/OPPO_Find_N2_Flip.png')}}">
                         <h4>Oppo Find N2 Flip</h4>
@@ -153,9 +156,11 @@
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                     </div>
-                    <p>19.990.000đ</p>
+                    <p>{{ row[1] }}đ</p>
+                    {% endfor %}
                 </div>
                 <div class ="col-4">
+                    {% for row in data5 %}
                     <a href="https://fptshop.com.vn/dien-thoai/samsung-galaxy-s23-plus?dung-luong=256-gb">
                         <img src="{{ url_for('static', filename='images/Samsung_galaxy_s23_Ultra.png')}}">
                         <h4>Samsung Galaxy S23 Plus</h4>
@@ -167,7 +172,8 @@
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                     </div>
-                    <p>19.990.000đ</p>
+                    <p>{{ row[1] }}đ</p>
+                    {% endfor %}
                 </div>
 
             </div>
