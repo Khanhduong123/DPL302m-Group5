@@ -18,7 +18,6 @@ rows = c.fetchall()
 if len(rows) == 0:
     print("Device not found in database")
 else:
-    for row in rows:
-        print(row)
+    print(rows)
 
 conn.close()
