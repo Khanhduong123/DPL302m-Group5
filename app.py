@@ -1,5 +1,5 @@
 from flask import Flask, render_template,request,jsonify
-from price_search import *
+from full_function import *
 # from flask_sqlalchemy import SQLAlchemy
 # import datetime
 
@@ -42,11 +42,11 @@ def index():
 def post():
     data = request.json
     user_message = data['message']
+    result = chatbot(user_message)
     print(user_message)  # Print user input to the server console
     # You can perform processing on user_message if needed
     # For example, you can pass it to a chatbot model for generating a response
     # For now, let's echo the user input back to the frontend
-    result = chatbot(user_message)
     # Construct the response data including the user input
     response_data = {
         'user_message': user_message,

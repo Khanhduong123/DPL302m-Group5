@@ -1,2 +1,2 @@
-from test1 import *
-print(divide(1,3,2,6))
+from load_model_2 import *
+print(last("How old are you"))

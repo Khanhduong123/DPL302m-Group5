@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title> Shop điện thoại & máy tính</title>
+        <title>Mobile shop</title>
         <link rel="stylesheet"  href="{{ url_for('static', filename='styles/styles.css')}}">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,7 @@
     </head>
     <body>
     <div class="popup_chatbox">
-        <button id="chatbox-toggle">Mở chat</button>
+        <button id="chatbox-toggle">Chat</button>
         <div class="chat-popup" id="chat-popup">
             <div class="chat-container">
                 <div class="chat-header">
@@ -21,10 +21,18 @@
                 <div class="chat-messages" id="chat-messages">
                     <!-- Chat messages will appear here -->
                     <div class="message-bubble sent">
-                        <div class="message-text">Xin chào, tôi có câu hỏi.</div>
+                        <div class="message-text">Hello</div>
                     </div>
                     <div class="message-bubble received">
-                        <div class="message-text">Xin chào, tôi giúp gì được cho bạn?</div>
+                        <div class="message-text">Hi, how can I help you?
+                            How to use me:
+                            - Search price: what is the price of + product
+                            - Example: what is the price of iphone 15
+                            - Search screen size: what is the screen size of + product
+                            - Example: what is the screen size of iphone 15
+                            - Search memory: what is the memory of + product
+                            - Example: what is the memory of of iphone 15
+                        </div>
                     </div>
                 </div>
                 <div class="chat-input">
@@ -45,19 +53,19 @@
                 </div> 
                 <nav>
                     <ul>
-                        <li><a href="https://fptshop.com.vn">Trang chủ</a></li>
-                        <li><a href="https://fptshop.com.vn/dien-thoai">Sản phẩm</a></li>
-                        <li><a href="https://fptshop.com.vn/gioi-thieu">Về chúng tôi</a></li>
-                        <li><a href="https://fptshop.com.vn/lien-he">Liên hệ</a></li>
+                        <li><a href="https://fptshop.com.vn">Home page</a></li>
+                        <li><a href="https://fptshop.com.vn/dien-thoai">Product</a></li>
+                        <li><a href="https://fptshop.com.vn/gioi-thieu">About us</a></li>
+                        <li><a href="https://fptshop.com.vn/lien-he">Contact</a></li>
                     </ul>
                  </nav>
                  <a href="https://fptshop.com.vn/cart"><img src="{{ url_for('static', filename='images/cart.png')}}" width="30px" height="30px"></a>
             </div>
             <div class="row">
                 <div class="col-2">
-                    <h1>Hãy mua điện thoại chỗ chúng tôi<br>Giá bao rẻ!</h1>
-                    <p>Không phải lúc nào bạn cũng có thể mua điện thoại rẻ như shop của chúng tôi đâu.</p>
-                    <a href="https://fptshop.com.vn" class="btn">Khám Phá &#8594</a>
+                    <h1>Buy a phone from us<br>Cheap price!</h1>
+                    <p>Not always you can buy phones as cheap as our shop.</p>
+                    <a href="https://fptshop.com.vn" class="btn">Explore &#8594</a>
                 </div>
                 <div class="col-2">
                     <img src="{{ url_for('static', filename='images/hình điện thoại.png')}}" >
@@ -67,7 +75,7 @@
     </div>
         <div class="categories">
             <div class="small-container">
-                <h2 class="title">Bộ sưu tập nổi bật</h2>
+                <h2 class="title">Famoud Collection</h2>
                 <div class = "row">
                     <div class ="col-3">
                         <a href="https://fptshop.com.vn/dien-thoai/apple-iphone?sort=ban-chay-nhat">
@@ -93,7 +101,7 @@
         </div>
 
         <div class="small-container">
-            <h2 class="title">Sản phẩm nổi bật</h2>
+            <h2 class="title">Famous Product</h2>
             <div class="row">
                 <div class ="col-4">
                     {% for row in data1 %}
@@ -108,7 +116,7 @@
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                     </div>
-                    <p>{{ row[1] }}đ</p>
+                    <p>{{ row[1] }} USD</p>
                     {% endfor %}
                 </div>
                 <div class ="col-4">
@@ -124,7 +132,7 @@
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star-o" ></i>
                     </div>
-                    <p>{{ row[1] }}đ</p>
+                    <p>{{ row[1] }} USD</p>
                     {% endfor %}
                 </div>
                 <div class ="col-4">
@@ -140,7 +148,7 @@
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star-half-o" ></i>
                     </div>
-                    <p>{{ row[1] }}đ</p>
+                    <p>{{ row[1] }} USD</p>
                     {% endfor %}
                 </div>
                 <div class ="col-4">
@@ -156,7 +164,7 @@
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                     </div>
-                    <p>{{ row[1] }}đ</p>
+                    <p>{{ row[1] }} USD</p>
                     {% endfor %}
                 </div>
                 <div class ="col-4">
@@ -172,7 +180,7 @@
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                     </div>
-                    <p>{{ row[1] }}đ</p>
+                    <p>{{ row[1] }} USD</p>
                     {% endfor %}
                 </div>
 
@@ -185,9 +193,9 @@
                 <div class="row">
                         <div class="col-3">
                             <i class="fa fa-quote-left"></i>
-                            <p>Tôi không thể hài lòng hơn với dịch vụ tại cửa hàng điện thoại của bạn! Nhân viên của bạn thân thiện và hỗ trợ tận tâm.
-                            Tôi đã mua một chiếc điện thoại mới ở đây và tôi rất hạnh phúc với sản phẩm và giá cả hợp lý. 
-                            Sẽ không có lý do gì khiến tôi không quay lại lần nữa!</p>
+                            <p>I couldn't be more pleased with the service at your phone store! Your staff is friendly and supportive.
+                               I bought a new phone here and I'm very happy with the product and the reasonable price.
+                               There would be no reason why I wouldn't come back again!</p>
                             <i class="fa fa-quote-right"></i>
                             <div class="rating">
                                 <i class="fa fa-star" ></i>
@@ -197,15 +205,15 @@
                                 <i class="fa fa-star" ></i>                            
                             </div>
                             <img src="{{ url_for('static', filename='images/user-1.png')}}">
-                            <h3>Nguyễn Thị Mai Anh</h3>
+                            <h3>Sarah</h3>
                         </div>
                         
 
                     <div class="col-3">
                         <i class="fa fa-quote-left"></i>
-                        <p>Cửa hàng điện thoại của bạn thực sự là nơi tuyệt vời để mua sắm. Sự lựa chọn sản phẩm rộng lớn và chất lượng cao, cùng với đội ngũ nhân viên thân thiện và tận tâm. 
-                            Tôi đã tìm thấy chiếc điện thoại mơ ước của mình ở đây và tôi không thể hạnh phúc hơn với quyết định của mình. 
-                            Cảm ơn bạn vì trải nghiệm mua sắm tuyệt vời!</p>
+                        <p>Your phone store is truly a great place to shop. Vast and high quality product selection, along with friendly and dedicated staff.
+                           I found my dream phone here and I couldn't be happier with my decision.
+                           Thank you for your wonderful shopping experience!</p>
                         <i class="fa fa-quote-right"></i>
                         <div class="rating">
                             <i class="fa fa-star" ></i>
@@ -215,15 +223,15 @@
                             <i class="fa fa-star" ></i>
                         </div>
                         <img src="{{ url_for('static', filename='images/user-2.png')}}">
-                        <h3>Trần Văn Hải</h3>
+                        <h3>James</h3>
                     </div>
 
                     <div class="col-3">
                         <i class="fa fa-quote-left"></i>
-                        <p>Đây là lần đầu tiên tôi mua điện thoại tại cửa hàng của bạn và tôi rất ấn tượng. 
-                            Dịch vụ khách hàng tuyệt vời, giúp đỡ tận tâm và nhiệt huyết. 
-                            Sản phẩm chất lượng và giá cả hợp lý. Tôi sẽ chia sẻ trải nghiệm tích cực này với gia đình và bạn bè của mình và chắc chắn sẽ quay lại mua sắm ở đây trong tương lai. 
-                            Cảm ơn bạn!</p>
+                        <p>This is my first time buying a phone at your store and I'm very impressed.
+                           Great customer service, dedicated and enthusiastic help.
+                           Quality products and reasonable prices. I will share this positive experience with my family and friends and will definitely come back to shop here in the future.
+                           Thank you!</p>
                         <i class="fa fa-quote-right"></i>
                         <div class="rating">
                             <i class="fa fa-star" ></i>
@@ -233,7 +241,7 @@
                             <i class="fa fa-star" ></i>
                         </div>
                         <img src="{{ url_for('static', filename='images/user-3.png')}}">
-                        <h3>Trần Thị Ngọc Trâm</h3>
+                        <h3>Emma</h3>
                     </div>
                 </div>
             </div>
@@ -264,8 +272,8 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col-3">
-                        <h3>Chứng nhận</h3>
-                        <p>Các chứng nhận đã đạt được:</p>
+                        <h3>Certification</h3>
+                        <p>Certifications achieved:</p>
                         <div class="cer-img">
                             <img src="{{ url_for('static', filename='images/ft-img3.png')}}">
                             <img src="{{ url_for('static', filename='images/ft-img4.png')}}">
@@ -274,14 +282,14 @@
 
                     </div>
                     <div class="footer-col-3">
-                        <h3>Chính sách bên chúng tôi</h3>
+                        <h3>Our policy</h3>
                         <ul>
-                            <li><a href="https://fptshop.com.vn/ho-tro/chinh-sach-doi-san-pham">Chính sách đổi trả</a></li>
-                            <li><a href="https://fptshop.com.vn/ho-tro/chinh-sach-bao-hanh">chính sách bảo hành</a></li>
+                            <li><a href="https://fptshop.com.vn/ho-tro/chinh-sach-doi-san-pham">Return policy</a></li>
+                            <li><a href="https://fptshop.com.vn/ho-tro/chinh-sach-bao-hanh">Warranty Policy</a></li>
                         </ul>
                     </div>
                     <div class="footer-col-4">
-                        <h3>Theo dõi chúng tôi</h3>
+                        <h3>Follow us</h3>
                         <ul>
                             <li><a href="https://www.facebook.com/FPTShopOnline">Facebook</a></li>
                             <li><a href="https://zalo.me/2659487666103055748">Zalo</a></li>

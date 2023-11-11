@@ -1,9 +1,11 @@
-def plus(a,b):
-    result = a+b
-    return result
+def syntax(name):
+    word_to_search = "what price of"
+    
+    if name.find(word_to_search) != -1 :
+        syntax = "yes"
+    else:
+        syntax = "no"
+    return syntax
 
-def divide(a,b,c,d):
-    result = plus(a,b)/plus(c,d)
-    return result
-
-
+ask = "what price of cho"
+print(syntax(ask))

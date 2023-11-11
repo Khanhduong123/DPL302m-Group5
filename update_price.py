@@ -11,7 +11,7 @@ rows = cursor.fetchall()
 # Update the phone_money values and commit the changes
 for row in rows:
     phone_money = row[1].replace('.', '')  # Remove existing periods
-    formatted_phone_money = '{:,.0f}'.format(float(phone_money)).replace(',', '.')  # Add periods as thousands separators
+    formatted_phone_money = '{:,.0f}'.format(float(phone_money)).replace(',', ',')  # Add periods as thousands separators
     cursor.execute('UPDATE thongtindienthoai SET phone_money = ? WHERE phone_names = ?', (formatted_phone_money, row[0]))
 
 # Commit the changes and close the connection
