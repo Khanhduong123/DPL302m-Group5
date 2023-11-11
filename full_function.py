@@ -90,7 +90,7 @@ def chatbot_price(user_input, product):
             for i in info:
                 answer += f"\n- {i[0]}is priced at {i[1]} USD"  # Fix loop variable issue here
   else:
-    answer = "Does not correct syntax, please try again using this syntax:\n- Search price: what price of + product\n- Example: what price of iphone 15"
+    answer = "Does not correct syntax, please try again using this syntax:\n- Search price: what is the price of + product\n- Example: what is the price of iphone 15"
   return answer
 
 def chatbot_screen(user_input, product):
