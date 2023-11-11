@@ -30,6 +30,9 @@ from sklearn.metrics import confusion_matrix
 import nltk
 import sqlite3
 from nltk import pos_tag
+# nltk.download('punkt')
+# nltk.download('averaged_perceptron_tagger')
+# nltk.download('punkt')
 
 model_1= tf.keras.models.load_model('content/classification.h5',compile=False)
 model_2 = tf.keras.models.load_model('content/chatbot.h5',compile=False)
