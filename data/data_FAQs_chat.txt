@@ -303,7 +303,7 @@ Does the Vivo Y22s support Virtual RAM expansion?   Yes, the Vivo Y22s does supp
 How do I use the Multi-Turbo mode on the Vivo Y16?  This mode can be activated to optimize the phone's performance for gaming and intensive applications.
 Can the Samsung Galaxy Z Fold4 5G multitask with three apps at once?    The Galaxy Z Fold4 5G allows you to run multiple apps simultaneously on the main screen using the split-screen and pop-up view features.
 Does the iPhone 12 support HDR video playback?  Yes, the iPhone 12 does support HDR video playback. It has a Super Retina XDR display that supports HDR, offering a wider range of colors and enhanced contrast.
-How do I set up Face ID on my iPhone 11?    Go to Settings → Face ID & Passcode to set up Face ID by following the on-screen instructions.
+How do I set up Face ID on my iPhone 11?    Go to Setting, Face ID and Passcode to set up Face ID by following the on screen instructions.
 How do I use the Super Steady video on the Samsung Galaxy A53 5G?   Enable Super Steady mode in the camera app before recording to stabilize video footage significantly.
 What is OPPO A78's RAM Expansion technology?    This feature allows you to allocate part of the storage memory to be used as extra RAM for improved multitasking.
 How does the Screen Color Mode work on the OPPO A77s?   Adjust the Screen Color Mode in the display settings to change color profiles according to your preference.  
