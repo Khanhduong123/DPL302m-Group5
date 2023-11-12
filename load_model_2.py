@@ -13,10 +13,10 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from keras.models import Model
-import tensorflow as tf
 from keras.layers import LSTM, Activation, Dense, Dropout, Input, Embedding
 from keras.preprocessing.sequence import pad_sequences
 from keras import layers, activations, models, preprocessing, utils
